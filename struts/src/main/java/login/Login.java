@@ -1,6 +1,8 @@
 package login;
 
 import com.opensymphony.xwork2.ActionSupport;
+import oeuvres.Livre;
+import oeuvres.Oeuvre;
 import org.apache.struts2.interceptor.SessionAware;
 
 import java.util.Map;
