@@ -23,6 +23,10 @@ public class Login extends ActionSupport implements SessionAware {
         return INPUT;
     }
 
+    public String accueil() throws Exception {
+        return SUCCESS;
+    }
+
     @Override
     public void setSession(Map<String, Object> map) {
         this.variableSession = map;

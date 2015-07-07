@@ -12,7 +12,6 @@ public abstract class Oeuvre{
     protected int quantite;
     protected boolean empruntable;
 
-
     public int getId() {
         return id;
     }

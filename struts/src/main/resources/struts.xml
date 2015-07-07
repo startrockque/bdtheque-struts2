@@ -19,6 +19,10 @@
         <action name="Accueil" class="accueil.Accueil">
             <result>WEB-INF/accueil/accueil.jsp</result>
         </action>
+
+        <action name="deco" class="accueil.Deconnection">
+            <result>/WEB-INF/accueil/accueil.jsp</result>
+        </action>
     </package>
 
     <include file="login.xml"/>
