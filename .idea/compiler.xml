@@ -28,9 +28,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BDThèque" target="1.5" />
-      <module name="modele" target="1.5" />
-      <module name="struts" target="1.5" />
+      <module name="BDThèque" target="1.7" />
+      <module name="modele" target="1.7" />
+      <module name="struts" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

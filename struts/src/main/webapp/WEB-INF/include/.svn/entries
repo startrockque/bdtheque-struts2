@@ -1,0 +1,42 @@
+10
+
+dir
+0
+https://orleans.miage.fr/svn/m1projetF/BDTh%C3%A8que/struts/src/main/webapp/WEB-INF/include
+https://orleans.miage.fr/svn/m1projetF
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+72c41d51-2151-4103-ab55-dfd5d6f40842
+
+espaces.jsp
+file
+
+
+
+add
+
+header.jsp
+file
+
+
+
+add
+

@@ -1,0 +1,266 @@
+10
+
+dir
+0
+https://orleans.miage.fr/svn/m1projetF/BDTh%C3%A8que/.idea/libraries
+https://orleans.miage.fr/svn/m1projetF
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+72c41d51-2151-4103-ab55-dfd5d6f40842
+
+Maven__aopalliance_aopalliance_1_0.xml
+file
+
+
+
+add
+
+Maven__com_jgeppert_struts2_bootstrap_struts2_bootstrap_plugin_2_0_0.xml
+file
+
+
+
+add
+
+Maven__com_jgeppert_struts2_jquery_struts2_jquery_plugin_3_7_1.xml
+file
+
+
+
+add
+
+Maven__commons_collections_commons_collections_3_1.xml
+file
+
+
+
+add
+
+Maven__commons_fileupload_commons_fileupload_1_3_1.xml
+file
+
+
+
+add
+
+Maven__commons_io_commons_io_2_2.xml
+file
+
+
+
+add
+
+Maven__commons_lang_commons_lang_2_1.xml
+file
+
+
+
+add
+
+Maven__commons_logging_commons_logging_1_1_3.xml
+file
+
+
+
+add
+
+Maven__javassist_javassist_3_11_0_GA.xml
+file
+
+
+
+add
+
+Maven__javax_servlet_jsp_api_2_0.xml
+file
+
+
+
+add
+
+Maven__javax_servlet_servlet_api_2_4.xml
+file
+
+
+
+add
+
+Maven__jstl_jstl_1_2.xml
+file
+
+
+
+add
+
+Maven__junit_junit_4_5.xml
+file
+
+
+
+add
+
+Maven__log4j_log4j_1_2_17.xml
+file
+
+
+
+add
+
+Maven__ognl_ognl_3_0_6.xml
+file
+
+
+
+add
+
+Maven__org_apache_commons_commons_lang3_3_2.xml
+file
+
+
+
+add
+
+Maven__org_apache_struts_struts2_config_browser_plugin_2_3_20.xml
+file
+
+
+
+add
+
+Maven__org_apache_struts_struts2_core_2_3_20.xml
+file
+
+
+
+add
+
+Maven__org_apache_struts_struts2_junit_plugin_2_3_20.xml
+file
+
+
+
+add
+
+Maven__org_apache_struts_xwork_xwork_core_2_3_20.xml
+file
+
+
+
+add
+
+Maven__org_apache_velocity_velocity_1_5.xml
+file
+
+
+
+add
+
+Maven__org_freemarker_freemarker_2_3_19.xml
+file
+
+
+
+add
+
+Maven__org_ow2_asm_asm_5_0_2.xml
+file
+
+
+
+add
+
+Maven__org_ow2_asm_asm_commons_5_0_2.xml
+file
+
+
+
+add
+
+Maven__org_ow2_asm_asm_tree_5_0_2.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_aop_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_context_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_core_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__org_springframework_spring_test_3_0_5_RELEASE.xml
+file
+
+
+
+add
+
+Maven__oro_oro_2_0_8.xml
+file
+
+
+
+add
+
+Maven__taglibs_standard_1_1_2.xml
+file
+
+
+
+add
+
