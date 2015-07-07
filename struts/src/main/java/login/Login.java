@@ -5,14 +5,21 @@ import org.apache.struts2.interceptor.SessionAware;
 
 import java.util.Map;
 
-/**
- * Created by Fabien on 07/07/2015.
- */
 public class Login extends ActionSupport implements SessionAware {
+
     private String login;
     private String mdp;
 
     private Map<String, Object> variableSession;
+
+    @Override
+    public String execute() throws Exception {
+        if (login.equals("a") & mdp.equals("a")) {
+            variableSession.put("login", login);
+            return SUCCESS;
+        }
+        return INPUT;
+    }
 
     @Override
     public void setSession(Map<String, Object> map) {

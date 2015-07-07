@@ -1,6 +1,3 @@
-/**
- * Created by Baptiste on 01/01/15.
- */
 function verifPseudo()
 {
     if(document.formSaisie.login.value != "" && document.formSaisie.mdp.value != "") {
