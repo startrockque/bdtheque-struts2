@@ -1,9 +1,11 @@
 package admin;
 
 import com.opensymphony.xwork2.ActionSupport;
+import oeuvres.Oeuvre;
 import org.apache.struts2.interceptor.ApplicationAware;
 import org.apache.struts2.interceptor.SessionAware;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -12,20 +14,32 @@ import java.util.Map;
 public class OeuvresActions extends ActionSupport implements ApplicationAware, SessionAware {
     private Map<String, Object> variableSession;
 
+    private List<Oeuvre> listeOeuvres;
+
     private int pageNumber;
     private int pageNumberM;
     private int pageNumberE;
 
+    private int idOeuvre;
+
 
     public String getAllOeuvres() throws Exception {
         // recupérer les oeuvres (voir pagination)
-        return "success";
+        return SUCCESS;
     }
 
-    public String toAddOeuvre() throws Exception {
-        return "success";
+    public String toAddOeuvre() {
+        return SUCCESS;
     }
 
+    public String toModifierOeuvre() {
+        return SUCCESS;
+    }
+
+    public String supprimerOeuvre(){
+        //Supprimer le livre dont l'id est en paramètre
+        return SUCCESS;
+    }
 
 
 
@@ -61,5 +75,21 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
     public void setPageNumberE(int pageNumberE) {
         this.pageNumberE = pageNumberE;
+    }
+
+    public List<Oeuvre> getListeOeuvres() {
+        return listeOeuvres;
+    }
+
+    public void setListeOeuvres(List<Oeuvre> listeOeuvres) {
+        this.listeOeuvres = listeOeuvres;
+    }
+
+    public int getIdOeuvre() {
+        return idOeuvre;
+    }
+
+    public void setIdOeuvre(int idOeuvre) {
+        this.idOeuvre = idOeuvre;
     }
 }

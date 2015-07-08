@@ -3,7 +3,7 @@
 <%@ taglib prefix="sb" uri="/struts-bootstrap-tags" %>
 
 
-<s:include value="../adminLTE/adminLTETopLeft.jsp"/>
+<s:include value="adminLTE/adminLTETopLeft.jsp"/>
 
 <!-- Right side column. Contains the navbar and content of the page -->
 <aside class="right-side">
@@ -28,4 +28,4 @@
         </div>
     </section><!-- /.content -->
 </aside><!-- /.right-side -->
-<s:include value="../adminLTE/adminLTEFooter.jsp"/>
+<s:include value="adminLTE/adminLTEFooter.jsp"/>

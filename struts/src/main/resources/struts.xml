@@ -3,8 +3,8 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
-    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
-    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.devMode" value="false"/>
 
     <package name="default" namespace="/" extends="struts-default">
 
@@ -23,7 +23,51 @@
         <action name="deco" class="accueil.Deconnection">
             <result>/WEB-INF/accueil/accueil.jsp</result>
         </action>
-    </package>
 
-    <include file="login.xml"/>
+
+        <action name="Login" class="login.Login">
+            <result name="success" type="redirectAction">
+                <param name="actionName">acceuilConnecte</param>
+            </result>
+            <result name="input">/WEB-INF/accueil/accueil.jsp</result>
+            <result name="error">/WEB-INF/accueil/accueil.jsp</result>
+        </action>
+
+        <action name="acceuilConnecte" class="admin.AccueilAdmin">
+            <result>/WEB-INF/admin/accueil_connecte.jsp</result>
+        </action>
+
+
+        <action name="listeOeuvres" class="admin.OeuvresActions" method="getAllOeuvres">
+            <result>/WEB-INF/admin/oeuvre/listeOeuvres.jsp</result>
+        </action>
+
+        <action name="toAjoutOeuvre" class="admin.OeuvresActions" method="toAddOeuvre">
+            <result>/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp</result>
+        </action>
+
+        <action name="toModifierOeuvre" class="admin.OeuvresActions" method="toModifierOeuvre">
+            <result>/WEB-INF/admin/oeuvre/modifierOeuvre.jsp</result>
+        </action>
+
+        <action name="supprimerOeuvre" class="admin.OeuvresActions" method="supprimerOeuvre">
+            <result>/WEB-INF/admin/oeuvre/listeOeuvres.jsp</result>
+        </action>
+
+
+        <action name="listeMembres" class="admin.MembresActions" method="getAllMembers">
+            <result>/WEB-INF/admin/membre/listeMembres.jsp</result>
+        </action>
+        <action name="ajoutMembres" class="admin.MembresActions" method="toAddMembers">
+            <result>/WEB-INF/admin/membre/ajoutMembre.jsp</result>
+        </action>
+
+
+        <action name="listeEmprunts" class="admin.EmpruntsActions" method="getAllEmprunts">
+            <result>/WEB-INF/admin/emprunt/listeEmprunts.jsp</result>
+        </action>
+        <action name="ajoutEmprunts" class="admin.EmpruntsActions" method="toAddEmprunts">
+            <result>/WEB-INF/admin/emprunt/ajoutEmprunt.jsp</result>
+        </action>
+    </package>
 </struts>

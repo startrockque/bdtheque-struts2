@@ -37,7 +37,7 @@
         <s:form action="Login" theme="simple" cssClass="well form-search" name="formSaisie" onsubmit="return verifPseudo()">
             <s:textfield id ="login" key="connexion.login" name="login" placeholder="Identifiant" />
             <s:password  id="mdp" key="connexion.mdp" name="mdp" placeholder="Mot de passe" />
-            <s:submit key="connexion.bouton" cssClass="btn btn-primary" action="Login" />
+            <s:submit key="connexion.bouton" cssClass="btn btn-primary"/>
             <s:actionerror theme="bootstrap"/>
             <s:actionmessage theme="bootstrap"/>
             <s:fielderror theme="bootstrap"/>

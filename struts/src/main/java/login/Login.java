@@ -16,15 +16,11 @@ public class Login extends ActionSupport implements SessionAware {
 
     @Override
     public String execute() throws Exception {
-        if (login.equals("a") & mdp.equals("a")) {
+        if (login.equals("a") && mdp.equals("a")) {
             variableSession.put("login", login);
             return SUCCESS;
         }
         return INPUT;
-    }
-
-    public String accueil() throws Exception {
-        return SUCCESS;
     }
 
     @Override
