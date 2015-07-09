@@ -1,10 +1,14 @@
 package admin;
 
 import com.opensymphony.xwork2.ActionSupport;
+import oeuvres.BD;
+import oeuvres.Livre;
+import oeuvres.Manga;
 import oeuvres.Oeuvre;
 import org.apache.struts2.interceptor.ApplicationAware;
 import org.apache.struts2.interceptor.SessionAware;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -23,7 +27,31 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     private int idOeuvre;
 
 
-    public String getAllOeuvres() throws Exception {
+    public String getAllOeuvres() {
+        listeOeuvres = new ArrayList<>();
+        Oeuvre o = new Livre(1, "Empruntable", "Toto", 1, true);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        listeOeuvres.add(o);
+        Oeuvre o2 = new BD(2, "Non empruntable", "Toto", 1, false);
+        listeOeuvres.add(o2);
+        listeOeuvres.add(o2);
+        listeOeuvres.add(o2);
+        listeOeuvres.add(o2);
+        listeOeuvres.add(o2);
+        listeOeuvres.add(o2);
+        listeOeuvres.add(o2);
+        Oeuvre o3 = new Manga(3, "Manga !!", "Toto Kuromi", 2, true);
+        listeOeuvres.add(o3);
+        listeOeuvres.add(o3);
+        listeOeuvres.add(o3);
+        listeOeuvres.add(o3);
+        listeOeuvres.add(o3);
         // recupérer les oeuvres (voir pagination)
         return SUCCESS;
     }
@@ -38,7 +66,7 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
     public String supprimerOeuvre(){
         //Supprimer le livre dont l'id est en paramètre
-        return SUCCESS;
+        return getAllOeuvres();
     }
 
 

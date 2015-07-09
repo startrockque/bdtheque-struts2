@@ -9,7 +9,7 @@ public class Manga extends Oeuvre {
         id = 0;
         titre = "";
         auteur = "";
-        type = 2;
+        type = "Manga";
         quantite = 0;
         empruntable = true;
     }
@@ -18,7 +18,7 @@ public class Manga extends Oeuvre {
         id = 0;
         titre = t;
         auteur = a;
-        type = 2;
+        type = "Manga";
         quantite = q;
         empruntable = e;
     }
@@ -27,7 +27,7 @@ public class Manga extends Oeuvre {
         id = i;
         titre = t;
         auteur = a;
-        type = 2;
+        type = "Manga";
         quantite = q;
         empruntable = e;
     }

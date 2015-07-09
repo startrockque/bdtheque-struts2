@@ -8,7 +8,7 @@ public abstract class Oeuvre{
     protected int id;
     protected String titre;
     protected String auteur;
-    protected int type;
+    protected String type;
     protected int quantite;
     protected boolean empruntable;
 
@@ -36,11 +36,11 @@ public abstract class Oeuvre{
         this.auteur = auteur;
     }
 
-    public int getType() {
+    public String getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(String type) {
         this.type = type;
     }
 

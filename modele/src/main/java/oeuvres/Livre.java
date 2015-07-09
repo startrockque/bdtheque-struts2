@@ -9,23 +9,26 @@ public class Livre extends Oeuvre {
         id = 0;
         titre = "";
         auteur = "";
-        type = 0;
+        type = "Livre";
         quantite = 0;
+        empruntable = true;
     }
 
-    public Livre(String t, String a, int q){
+    public Livre(String t, String a, int q, boolean e){
         id = 0;
         titre = t;
         auteur = a;
-        type = 0;
+        type = "Livre";
         quantite = q;
+        empruntable = e;
     }
 
-    public Livre(int i, String t, String a, int q){
+    public Livre(int i, String t, String a, int q, boolean e){
         id = i;
         titre = t;
         auteur = a;
-        type = 0;
+        type = "Livre";
         quantite = q;
+        empruntable = e;
     }
 }

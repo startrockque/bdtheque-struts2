@@ -69,5 +69,9 @@
         <action name="ajoutEmprunts" class="admin.EmpruntsActions" method="toAddEmprunts">
             <result>/WEB-INF/admin/emprunt/ajoutEmprunt.jsp</result>
         </action>
+        <action name="supprimerEmprunt" class="admin.AccueilAdmin">
+            <result>/WEB-INF/admin/accueil_connecte.jsp</result>
+        </action>
+
     </package>
 </struts>

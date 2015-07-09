@@ -28,7 +28,7 @@
                     </s:if>
                 </li>
                 <li>
-                    <s:if test="listeOeuvres.size==5">
+                    <s:if test="listeOeuvres.size==20">
                         <s:url id="next" action="listeOeuvres">
                             <s:param name="pageNumber"><s:property value="%{pageNumber+1}"/></s:param>
                         </s:url>
@@ -42,51 +42,46 @@
     <!-- Main content -->
     <section class="content">
         <s:div cssClass="container">
-            <s:div cssClass="col-md-9 col-md-offset-2">
+            <s:div cssClass="col-md-11">
                 <s:if test="listeOeuvres.size==0">
                     <p class="alert-danger col-md-10 col-md-offset-1"><s:text name="admin.noOeuvres"/></p>
                 </s:if>
                 <s:else>
+                    <table border="2" class="col-md-12">
+                        <tr>
+                            <th><s:text name="oeuvre.titre"/></th>
+                            <th><s:text name="oeuvre.auteur"/></th>
+                            <th><s:text name="oeuvre.type"/></th>
+                            <th><s:text name="oeuvre.quantite"/></th>
+                            <th><s:text name="admin.mod"/></th>
+                            <th><s:text name="admin.suppr"/></th>
+                        </tr>
+                        <s:iterator value="listeOeuvres" var="oeuvre">
+                        <s:if test="%{#oeuvre.empruntable == false }">
+                            <tr style="background-color: #dd4b39">
+                        </s:if>
+                        <s:else>
+                            <tr>
+                        </s:else>
 
-                    <s:iterator value="listeOeuvres" var="oeuvre">
-                        <s:div cssClass="row">
-                            <s:div cssClass="col-md-10 col-md-offset-0">
-                                <s:div cssClass="panel panel-primary">
-                                    <s:div cssClass="panel-heading">
-                                        <h3 class="panel-title"><s:property value="#qcm.titre"/></h3>
-                                    </s:div>
-                                    <s:div cssClass="panel-body">
-                                        <s:if test="%{#oeuvre.empruntable == true}">
-                                            <p style="background-color: #dd4b39">
-                                        </s:if>
-                                        <s:else>
-                                            <p>
-                                        </s:else>
+                            <th><s:property value="#oeuvre.titre"/></th>
+                            <th><s:property value="#oeuvre.auteur"/></th>
+                            <th><s:property value="#oeuvre.type"/></th>
+                            <th><s:property value="#oeuvre.quantite"/></th>
 
-                                        <b><s:text name="oeuvre.titre"/></b> <s:property value="#oeuvre.titre"/><br/>
-                                        <b><s:text name="oeuvre.auteur"/> </b> <s:property value="#oeuvre.auteur"/><br/>
-                                        <b><s:text name="oeuvre.type"/> </b> <s:property value="#oeuvre.type"/><br/>
-                                        <b><s:text name="oeuvre.quantite"/> </b> <s:property value="#oeuvre.quantite"/><br/>
-                                        <b>Etat : </b>
-                                        <br/>
-
-                                        </p>
-                                        <p>
-                                            <s:url id="modifier" action="toModifierOeuvre">
-                                                <s:param name="idOeuvre"><s:property value="#oeuvre.id"/> </s:param>
-                                                <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
-                                            </s:url>
-                                            <s:a href="%{modifier}" cssClass="btn btn-primary btn-primary"><span class="glyphicon glyphicon-wrench"></span> <s:text name="admin.mod"/></s:a>
-                                            <s:url id="soum" action="supprimerOeuvre" namespace="/">
-                                                <s:param name="idOeuvre"><s:property value="#oeuvre.id"/> </s:param>
-                                                <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
-                                            </s:url>
-                                            <s:a href="%{soum}" cssClass="btn btn-primary btn-danger"><span class="glyphicon glyphicon-ok"></span> <s:text name="admin.suppr"/></s:a>
-                                    </s:div>
-                                </s:div>
-                            </s:div>
-                        </s:div>
-                    </s:iterator>
+                            <s:url id="modifier" action="toModifierOeuvre">
+                            <s:param name="idOeuvre"><s:property value="#oeuvre.id"/> </s:param>
+                                <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
+                            </s:url>
+                            <th><s:a href="%{modifier}" cssClass="btn btn-primary btn-primary"><span class="glyphicon glyphicon-wrench"></span></s:a></th>
+                            <s:url id="suppr" action="supprimerOeuvre" namespace="/">
+                            <s:param name="idOeuvre"><s:property value="#oeuvre.id"/> </s:param>
+                                <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
+                            </s:url>
+                            <th><s:a href="%{suppr}" cssClass="btn btn-primary btn-danger"><span class="glyphicon glyphicon-ok"></span></s:a></th>
+                        </tr>
+                        </s:iterator>
+                    </table>
                     <br/>
                 </s:else>
             </s:div>
@@ -102,7 +97,7 @@
                     </s:if>
                 </li>
                 <li>
-                    <s:if test="listeQcm.size==5">
+                    <s:if test="listeOeuvres.size==20">
                         <s:url id="next" action="listeOeuvres">
                             <s:param name="pageNumber"><s:property value="%{pageNumber+1}"/></s:param>
                         </s:url>

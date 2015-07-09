@@ -9,7 +9,7 @@ public abstract class User {
     protected String nom;
     protected String prenom;
     protected String mail;
-    protected int tel;
+    protected String tel;
     protected String residence;
     protected int chambre;
 
@@ -45,11 +45,11 @@ public abstract class User {
         this.mail = mail;
     }
 
-    public int getTel() {
+    public String getTel() {
         return tel;
     }
 
-    public void setTel(int tel) {
+    public void setTel(String tel) {
         this.tel = tel;
     }
 
