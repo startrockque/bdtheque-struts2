@@ -1,11 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="468ee9c1-e41f-4538-b9c2-da666cf5b134" name="Default" comment="" />
+    <list default="true" id="468ee9c1-e41f-4538-b9c2-da666cf5b134" name="Default" comment="Affichage de la lsiste des livres avec pagination par page de 20.&#10;">
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\.idea\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\src\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\src\main\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\src\main\java\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\src\main\resources\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\src\test\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\src\test\java\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\target\classes\emprunts\Emprunt.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\target\classes\users\Membre.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\modele\target\classes\users\User.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\java\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\java\accueil\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\java\login\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\resources\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\resources\accueil\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\JS\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\WEB-INF\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\WEB-INF\accueil\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\WEB-INF\admin\adminLTE\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\WEB-INF\include\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\test\.svn\entries" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\test\java\.svn\entries" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/oeuvres/BD.class" afterPath="$PROJECT_DIR$/modele/target/classes/oeuvres/BD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/oeuvres/Livre.class" afterPath="$PROJECT_DIR$/modele/target/classes/oeuvres/Livre.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/oeuvres/Manga.class" afterPath="$PROJECT_DIR$/modele/target/classes/oeuvres/Manga.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/oeuvres/Oeuvre.class" afterPath="$PROJECT_DIR$/modele/target/classes/oeuvres/Oeuvre.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/lib/modele-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/lib/modele-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/users/Membre.java" afterPath="$PROJECT_DIR$/modele/src/main/java/users/Membre.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/users/User.java" afterPath="$PROJECT_DIR$/modele/src/main/java/users/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/JS/app.js" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/JS/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/listeOeuvres.jsp" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" afterPath="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/package.properties" afterPath="$PROJECT_DIR$/struts/target/classes/admin/package.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/struts/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/struts.xml" afterPath="$PROJECT_DIR$/struts/target/classes/struts.xml" />
+    </list>
     <list id="c1449f04-2167-4015-bd03-8fc198c6a6df" name="DoNotCommit" comment="">
-      <change type="MOVED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\src\main\webapp\WEB-INF\adminLTE\.svn\entries" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/.svn/entries" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/struts.iml" afterPath="$PROJECT_DIR$/struts/struts.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BDThèque.iws" />
@@ -34,22 +83,12 @@
     <leaf>
       <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.857143">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accueil.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/accueil/accueil.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.823529">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state vertical-scroll-proportion="-9.257143">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -58,9 +97,22 @@
       <file leaf-file-name="accueil_connecte.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.058823">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state vertical-scroll-proportion="-13.235294">
+              <caret line="18" column="18" selection-start-line="10" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Oeuvre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,65 +121,86 @@
         <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#1549#1550#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1680#1681#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-                <element signature="e#1902#1903#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1978#1979#0" expanded="true" />
-                <element signature="e#2018#2019#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminLTETopLeft.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp">
+      <file leaf-file-name="AccueilAdmin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3235295">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.614726">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1357#1358#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminLTEFooter.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTEFooter.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4117646">
-              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/struts/src/main/java/login/Login.java">
+      <file leaf-file-name="Membre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/Membre.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listeOeuvres.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.088235">
+              <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Emprunt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts/src/main/resources/admin/package.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7936508">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -173,13 +246,6 @@
         <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/verifLogin.js" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/accueil/accueil_connecte.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/java/login.xml" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/users/User.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/users/Membre.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/struts/src/main/resources/adminLTE/package.properties" />
         <option value="$PROJECT_DIR$/struts/src/main/java/admin/EmpruntsActions.java" />
@@ -188,21 +254,29 @@
         <option value="$PROJECT_DIR$/struts/src/main/resources/login.xml" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/js.js" />
         <option value="$PROJECT_DIR$/struts/src/main/resources/logged.xml" />
-        <option value="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/oeuvre/listeOeuvres.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/resources/accueil/package.properties" />
-        <option value="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/accueil/accueil.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/java/login/Login.java" />
-        <option value="$PROJECT_DIR$/struts/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/struts/src/main/resources/login/package.properties" />
-        <option value="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/adminLTE/adminLTETopLeft.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTEFooter.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/app.js" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/users/User.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/users/Membre.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp" />
+        <option value="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
       </list>
     </option>
   </component>
@@ -261,7 +335,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -753,9 +826,150 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oeuvres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emprunts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1216,7 +1430,8 @@
       <workItem from="1436287832434" duration="5162000" />
       <workItem from="1436298950408" duration="8880000" />
       <workItem from="1436309170339" duration="913000" />
-      <workItem from="1436381546185" duration="10550000" />
+      <workItem from="1436381546185" duration="10660000" />
+      <workItem from="1436447568985" duration="12589000" />
     </task>
     <task id="LOCAL-00001" summary="login basique">
       <created>1436292793695</created>
@@ -1246,11 +1461,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30891000" />
+    <option name="totallyTimeSpent" value="43590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1261,13 +1476,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1278,6 +1492,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1308,19 +1523,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/java/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#721#722#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1332,14 +1551,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
@@ -1354,7 +1573,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#721#722#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1366,14 +1597,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
@@ -1388,7 +1619,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#721#722#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,48 +1691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46349943">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8400927">
-          <caret line="29" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7821553">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8980301">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/Membre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14484356">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4345307">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.617647">
@@ -1535,17 +1736,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#648#649#0" expanded="false" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#745#746#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1555,26 +1756,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="false" />
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#863#864#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,15 +1782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37576687">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,7 +1797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1621,15 +1804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22875817">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1637,24 +1811,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#721#722#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#949#950#0" expanded="false" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.857143">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/accueil/accueil.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.823529">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding />
         </state>
@@ -1668,43 +1843,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.058823">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3235295">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
@@ -1718,27 +1859,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19636364">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTEFooter.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4117646">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jgeppert/struts2/bootstrap/struts2-bootstrap-plugin/2.0.0/struts2-bootstrap-plugin-2.0.0.jar!/template/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04280822">
+          <caret line="5623" column="1" selection-start-line="5623" selection-start-column="1" selection-end-line="5623" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jgeppert/struts2/bootstrap/struts2-bootstrap-plugin/2.0.0/struts2-bootstrap-plugin-2.0.0.jar!/template/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321918">
+          <caret line="6" column="13227" selection-start-line="6" selection-start-column="13227" selection-end-line="6" selection-end-column="13227" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7431507">
+          <caret line="3538" column="0" selection-start-line="3538" selection-start-column="0" selection-end-line="3538" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9143836">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87157536">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/Membre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.088235">
+          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.257143">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/resources/admin/package.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7936508">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.235294">
+          <caret line="18" column="18" selection-start-line="10" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.614726">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
