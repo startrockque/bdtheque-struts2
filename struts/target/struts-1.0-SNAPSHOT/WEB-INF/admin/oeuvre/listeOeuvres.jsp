@@ -9,7 +9,6 @@
     <section class="content-header">
         <h1>
             <s:text name="admin.listLivre"/>
-            <small><s:property value="titreThematique"/> </small>
         </h1>
         <ol class="breadcrumb">
             <s:url id="accueil" namespace="/" action="acceuilConnecte"/>

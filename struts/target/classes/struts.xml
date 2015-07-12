@@ -46,6 +46,10 @@
             <result>/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp</result>
         </action>
 
+        <action name="creerOeuvre" class="admin.OeuvresActions" method="addOeuvre">
+            <result>/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp</result>
+        </action>
+
         <action name="toModifierOeuvre" class="admin.OeuvresActions" method="toModifierOeuvre">
             <result>/WEB-INF/admin/oeuvre/modifierOeuvre.jsp</result>
         </action>

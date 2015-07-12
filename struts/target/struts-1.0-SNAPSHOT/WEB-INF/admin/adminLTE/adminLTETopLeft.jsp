@@ -25,6 +25,12 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
 
+  <script>
+    function verifOeuvre()
+    {
+      document.formulaire.btnCreer.disabled = document.formulaire.titre.value == "" || document.formulaire.auteur.value == "";
+    }
+  </script>
 
   <sb:head/>
 </head>

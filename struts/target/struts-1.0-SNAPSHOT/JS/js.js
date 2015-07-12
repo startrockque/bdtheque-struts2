@@ -1,6 +1,6 @@
-function verifTitre()
+function verifOeuvre()
 {
-    document.formulaire.btnCreer.disabled = document.formulaire.qcmTitre.value == "";
+    document.formulaire.btnCreer.disabled = document.formulaire.titre.value == "" || document.formulaire.auteur.value == "";
 }
 
 function verifTitreThema()
