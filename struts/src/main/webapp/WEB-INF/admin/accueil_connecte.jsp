@@ -32,7 +32,7 @@
                 <s:iterator value="empruntsEnRetard" var="emprunt">
                     <tr>
                         <th><s:property value="#emprunt.oeuvre.titre"/></th>
-                        <th><s:property value="#emprunt.user.nom"/> <s:property value="#emprunt.user.prenom"/></th>
+                        <th><s:property value="#emprunt.user.prenom"/> <s:property value="#emprunt.user.nom"/></th>
                         <th><s:property value="#emprunt.retour"/></th>
 
                         <s:url id="suppr" action="supprimerEmprunt" namespace="/">

@@ -19,12 +19,21 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     private Map<String, Object> variableSession;
 
     private List<Oeuvre> listeOeuvres;
+    private List<String> listeTypes;
+
+    private String messageOK;
+    private String messageKO;
 
     private int pageNumber;
     private int pageNumberM;
     private int pageNumberE;
 
     private int idOeuvre;
+    private String titre;
+    private String auteur;
+    private String type;
+    private int quantite;
+    private boolean empruntable;
 
 
     public String getAllOeuvres() {
@@ -57,7 +66,22 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     }
 
     public String toAddOeuvre() {
+        loadTypes();
         return SUCCESS;
+    }
+
+    public String addOeuvre() {
+
+        loadTypes();
+        messageOK = "Ajout de "+ titre +" à la base de données.";
+        return SUCCESS;
+    }
+
+    private void loadTypes(){
+        listeTypes = new ArrayList<>();
+        listeTypes.add("Livre");
+        listeTypes.add("BD");
+        listeTypes.add("Manga");
     }
 
     public String toModifierOeuvre() {
@@ -119,5 +143,69 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
     public void setIdOeuvre(int idOeuvre) {
         this.idOeuvre = idOeuvre;
+    }
+
+    public String getMessageOK() {
+        return messageOK;
+    }
+
+    public void setMessageOK(String messageOK) {
+        this.messageOK = messageOK;
+    }
+
+    public String getMessageKO() {
+        return messageKO;
+    }
+
+    public void setMessageKO(String messageKO) {
+        this.messageKO = messageKO;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public String getAuteur() {
+        return auteur;
+    }
+
+    public void setAuteur(String auteur) {
+        this.auteur = auteur;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getQuantite() {
+        return quantite;
+    }
+
+    public void setQuantite(int quantite) {
+        this.quantite = quantite;
+    }
+
+    public boolean isEmpruntable() {
+        return empruntable;
+    }
+
+    public void setEmpruntable(boolean empruntable) {
+        this.empruntable = empruntable;
+    }
+
+    public List<String> getListeTypes() {
+        return listeTypes;
+    }
+
+    public void setListeTypes(List<String> listeTypes) {
+        this.listeTypes = listeTypes;
     }
 }
