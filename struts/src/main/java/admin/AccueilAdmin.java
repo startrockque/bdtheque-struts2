@@ -4,17 +4,27 @@ import com.opensymphony.xwork2.ActionSupport;
 import emprunts.Emprunt;
 import oeuvres.Livre;
 import oeuvres.Oeuvre;
+import oeuvres.OeuvreFactory;
+import org.apache.struts2.interceptor.ApplicationAware;
+import org.apache.struts2.interceptor.SessionAware;
+import rmi.InitRemoteService;
+import rmi.RMIService;
 import users.Membre;
 import users.User;
 
 import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Fabien on 09/07/2015.
  */
-public class AccueilAdmin extends ActionSupport {
+public class AccueilAdmin extends ActionSupport implements ApplicationAware, SessionAware {
+    private RMIService rmiService;
+    private Map<String, Object> variableSession;
+
+
     private List<Emprunt> empruntsEnRetard;
 
     private String titre;
@@ -24,7 +34,7 @@ public class AccueilAdmin extends ActionSupport {
     public String execute() throws Exception {
         //recup les emprunts en retard dans la bdd
         empruntsEnRetard = new ArrayList<>();
-        Oeuvre oeuvre = new Livre();
+        Oeuvre oeuvre = OeuvreFactory.createOeuvre("Livre");
         oeuvre.setTitre("Toto chez les fermiers");
         User user = new Membre();
         Emprunt e = new Emprunt();
@@ -58,5 +68,19 @@ public class AccueilAdmin extends ActionSupport {
 
     public void setNom(String nom) {
         this.nom = nom;
+    }
+
+    @Override
+    public void setApplication(Map<String, Object> map) {
+        rmiService = (RMIService) map.get(RMIService.SERVICE_NAME);
+        if (rmiService == null){
+            rmiService = InitRemoteService.getService();
+            map.put(RMIService.SERVICE_NAME, rmiService);
+        }
+    }
+
+    @Override
+    public void setSession(Map<String, Object> map) {
+        variableSession = map;
     }
 }

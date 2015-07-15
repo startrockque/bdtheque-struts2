@@ -1,13 +1,14 @@
 package admin;
 
 import com.opensymphony.xwork2.ActionSupport;
-import oeuvres.BD;
-import oeuvres.Livre;
-import oeuvres.Manga;
-import oeuvres.Oeuvre;
+import dao.configuration.NotFoundException;
+import oeuvres.*;
 import org.apache.struts2.interceptor.ApplicationAware;
 import org.apache.struts2.interceptor.SessionAware;
+import rmi.InitRemoteService;
+import rmi.RMIService;
 
+import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -16,6 +17,8 @@ import java.util.Map;
  * Created by Fabien on 07/07/2015.
  */
 public class OeuvresActions extends ActionSupport implements ApplicationAware, SessionAware {
+    private RMIService rmiService;
+
     private Map<String, Object> variableSession;
 
     private List<Oeuvre> listeOeuvres;
@@ -36,32 +39,9 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     private boolean empruntable;
 
 
-    public String getAllOeuvres() {
+    public String getAllOeuvres() throws RemoteException, NotFoundException {
         listeOeuvres = new ArrayList<>();
-        Oeuvre o = new Livre(1, "Empruntable", "Toto", 1, true);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        listeOeuvres.add(o);
-        Oeuvre o2 = new BD(2, "Non empruntable", "Toto", 1, false);
-        listeOeuvres.add(o2);
-        listeOeuvres.add(o2);
-        listeOeuvres.add(o2);
-        listeOeuvres.add(o2);
-        listeOeuvres.add(o2);
-        listeOeuvres.add(o2);
-        listeOeuvres.add(o2);
-        Oeuvre o3 = new Manga(3, "Manga !!", "Toto Kuromi", 2, true);
-        listeOeuvres.add(o3);
-        listeOeuvres.add(o3);
-        listeOeuvres.add(o3);
-        listeOeuvres.add(o3);
-        listeOeuvres.add(o3);
-        // recupérer les oeuvres (voir pagination)
+        listeOeuvres = rmiService.getAllOeuvres();
         return SUCCESS;
     }
 
@@ -70,9 +50,9 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
         return SUCCESS;
     }
 
-    public String addOeuvre() {
-
+    public String addOeuvre() throws RemoteException{
         loadTypes();
+        rmiService.addOeuvre(OeuvreFactory.createOeuvre(type));
         messageOK = "Ajout de "+ titre +" à la base de données.";
         return SUCCESS;
     }
@@ -88,16 +68,24 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
         return SUCCESS;
     }
 
-    public String supprimerOeuvre(){
-        //Supprimer le livre dont l'id est en paramètre
-        return getAllOeuvres();
+    public String modifierOeuvre() {
+        return SUCCESS;
     }
 
+    public String supprimerOeuvre() throws RemoteException, NotFoundException {
+        rmiService.supprimerOeuvre(idOeuvre);
+        getAllOeuvres();
+        return SUCCESS;
+    }
 
 
     @Override
     public void setApplication(Map<String, Object> map) {
-        // Init le rmi/DAO
+        rmiService = (RMIService) map.get(RMIService.SERVICE_NAME);
+        if (rmiService == null){
+            rmiService = InitRemoteService.getService();
+            map.put(RMIService.SERVICE_NAME, rmiService);
+        }
     }
 
     @Override
