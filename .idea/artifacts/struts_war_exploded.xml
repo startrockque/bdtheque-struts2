@@ -10,6 +10,11 @@
           <element id="archive" name="modele-1.0-SNAPSHOT.jar">
             <element id="module-output" name="modele" />
           </element>
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.182" />
+          <element id="library" level="project" name="Maven: com.jolbox:bonecp:0.8.0.RELEASE" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" />
           <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.3.20" />
           <element id="library" level="project" name="Maven: org.apache.struts.xwork:xwork-core:2.3.20" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.2" />
