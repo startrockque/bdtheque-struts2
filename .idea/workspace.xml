@@ -2,40 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468ee9c1-e41f-4538-b9c2-da666cf5b134" name="Default" comment="Affichage de la lsiste des livres avec pagination par page de 20.&#10;Mise en place de l'affichage d'une liste d'emprunts sur la page d'acceuil pour les retards.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOConfigurationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOUtilitaire.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/EmpruntDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IEmpruntDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IUserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts/src/main/java/rmi/InitRemoteService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/InsertDb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/NotFoundException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/resources/dao/dao.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/AccueilAdmin.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/AccueilAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/AccueilAdmin.class" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/AccueilAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/lib/modele-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/lib/modele-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/modele.iml" afterPath="$PROJECT_DIR$/modele/modele.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/pom.xml" afterPath="$PROJECT_DIR$/modele/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/struts.iml" afterPath="$PROJECT_DIR$/struts/struts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/struts_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/struts_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
+    </list>
+    <list id="c1449f04-2167-4015-bd03-8fc198c6a6df" name="DoNotCommit" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="c1449f04-2167-4015-bd03-8fc198c6a6df" name="DoNotCommit" comment="" />
     <ignored path="BDThèque.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,7 +36,88 @@
     <favorites_list name="BDThèque" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="OeuvresActions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36848205">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OeuvreFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RMIServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OeuvreDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAOFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+              <folding>
+                <marker date="1436896463112" expanded="true" signature="5092:5128" placeholder="CREATE SCHEM..IF..." />
+                <marker date="1436896463112" expanded="true" signature="5150:5592" placeholder="CREATE TABLE..IF..." />
+                <marker date="1436896463112" expanded="true" signature="5614:6085" placeholder="CREATE TABLE..IF..." />
+                <marker date="1436896463112" expanded="true" signature="6107:6498" placeholder="CREATE TABLE..IF..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOeuvreDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RMIService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/struts/src/main/resources/login/login.properties" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/adminLTE/accueilAdmin.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/verifLogin.js" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/accueil/accueil_connecte.jsp" />
@@ -123,20 +180,21 @@
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/java/rmi/InitRemoteService.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
         <option value="$PROJECT_DIR$/modele/pom.xml" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/configuration/InsertDb.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/QcmDao.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/EmpruntDAO.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
         <option value="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
-        <option value="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
       </list>
     </option>
   </component>
@@ -245,10 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -964,6 +1018,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDThèque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdtheque-struts2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modele" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1433,7 +1521,7 @@
       <workItem from="1436889325834" duration="6011000" />
       <workItem from="1436897169424" duration="2339000" />
       <workItem from="1436951827452" duration="2037000" />
-      <workItem from="1436976285771" duration="268000" />
+      <workItem from="1436976285771" duration="4130000" />
     </task>
     <task id="LOCAL-00001" summary="login basique">
       <created>1436292793695</created>
@@ -1471,41 +1559,47 @@
       <option name="project" value="LOCAL" />
       <updated>1436711273818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mise en place RMI, DAO et H2Database.&#10;Ajout d'une &quot;Factory&quot; d'oeuvres.">
+      <created>1436976717938</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1436976717938</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60317000" />
+    <option name="totallyTimeSpent" value="64179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1528,7 +1622,8 @@
     <MESSAGE value="Création de la page listeOeuvre.&#10;Fonctionnement des package.properties." />
     <MESSAGE value="Affichage de la lsiste des livres avec pagination par page de 20.&#10;Mise en place de l'affichage d'une liste d'emprunts sur la page d'acceuil pour les retards." />
     <MESSAGE value="Ajout de la page d'ajout d'oeuvres" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la page d'ajout d'oeuvres" />
+    <MESSAGE value="Mise en place RMI, DAO et H2Database.&#10;Ajout d'une &quot;Factory&quot; d'oeuvres." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place RMI, DAO et H2Database.&#10;Ajout d'une &quot;Factory&quot; d'oeuvres." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1540,13 +1635,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java</url>
-          <line>84</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java</url>
-          <line>83</line>
+          <line>93</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1560,13 +1655,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTEFooter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7431507">
@@ -1658,16 +1746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modele/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1676,17 +1754,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/NotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14484356">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOUtilitaire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11587486">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,6 +1766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05793743">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,6 +1774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05793743">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1760,34 +1834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31865585">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4345307">
@@ -1807,33 +1853,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1922,14 +1941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19466975">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.20/struts2-core-2.3.20.jar!/org/apache/struts2/interceptor/DeprecationInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20047733">
@@ -1948,6 +1959,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19093078">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14484356">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17381229">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17381229">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+          <folding>
+            <marker date="1436896463112" expanded="true" signature="5092:5128" placeholder="CREATE SCHEM..IF..." />
+            <marker date="1436896463112" expanded="true" signature="5150:5592" placeholder="CREATE TABLE..IF..." />
+            <marker date="1436896463112" expanded="true" signature="5614:6085" placeholder="CREATE TABLE..IF..." />
+            <marker date="1436896463112" expanded="true" signature="6107:6498" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36848205">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

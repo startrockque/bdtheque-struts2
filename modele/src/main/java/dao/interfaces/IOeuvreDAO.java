@@ -1,5 +1,6 @@
 package dao.interfaces;
 
+import dao.configuration.AlreadyExistsException;
 import dao.configuration.NotFoundException;
 import oeuvres.Oeuvre;
 
@@ -10,7 +11,7 @@ import java.util.List;
  */
 public interface IOeuvreDAO {
 
-    void create(Oeuvre oeuvre);
+    void create(Oeuvre oeuvre) throws AlreadyExistsException;
 
     void delete (Oeuvre oeuvre);
 

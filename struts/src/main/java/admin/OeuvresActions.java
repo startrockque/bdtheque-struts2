@@ -1,6 +1,7 @@
 package admin;
 
 import com.opensymphony.xwork2.ActionSupport;
+import dao.configuration.AlreadyExistsException;
 import dao.configuration.NotFoundException;
 import oeuvres.*;
 import org.apache.struts2.interceptor.ApplicationAware;
@@ -40,7 +41,6 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
 
     public String getAllOeuvres() throws RemoteException, NotFoundException {
-        listeOeuvres = new ArrayList<>();
         listeOeuvres = rmiService.getAllOeuvres();
         return SUCCESS;
     }
@@ -52,8 +52,18 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
     public String addOeuvre() throws RemoteException{
         loadTypes();
-        rmiService.addOeuvre(OeuvreFactory.createOeuvre(type));
-        messageOK = "Ajout de "+ titre +" à la base de données.";
+        Oeuvre oeuvre = OeuvreFactory.createOeuvre(type);
+        oeuvre.setTitre(titre);
+        oeuvre.setAuteur(auteur);
+        oeuvre.setType(type);
+        oeuvre.setQuantite(quantite);
+        oeuvre.setEmpruntable(empruntable);
+        try {
+            rmiService.addOeuvre(oeuvre);
+            messageOK = "Ajout de " + titre + " à la base de données."+ type;
+        } catch (AlreadyExistsException e) {
+            messageKO = "Cette oeuvre est déjà dans la base de données.";
+        }
         return SUCCESS;
     }
 

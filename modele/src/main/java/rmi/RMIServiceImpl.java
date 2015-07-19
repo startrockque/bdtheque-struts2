@@ -1,6 +1,7 @@
 package rmi;
 
 import dao.DAOFactory;
+import dao.configuration.AlreadyExistsException;
 import dao.configuration.NotFoundException;
 import oeuvres.Oeuvre;
 
@@ -23,8 +24,8 @@ public class RMIServiceImpl implements RMIService {
     }
 
     @Override
-    public void addOeuvre(Oeuvre oeuvre) throws RemoteException {
-
+    public void addOeuvre(Oeuvre oeuvre) throws RemoteException, AlreadyExistsException {
+        daoFactory.getOeuvreDAO().create(oeuvre);
     }
 
     @Override

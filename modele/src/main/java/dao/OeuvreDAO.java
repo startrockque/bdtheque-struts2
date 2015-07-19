@@ -1,5 +1,6 @@
 package dao;
 
+import dao.configuration.AlreadyExistsException;
 import dao.configuration.DAOException;
 import dao.configuration.NotFoundException;
 import dao.interfaces.DAO;
@@ -13,6 +14,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static dao.configuration.DAOUtilitaire.fermetureSilencieuse;
 import static dao.configuration.DAOUtilitaire.fermeturesSilencieuses;
 import static dao.configuration.DAOUtilitaire.initialisationRequetePreparee;
 
@@ -20,7 +22,11 @@ import static dao.configuration.DAOUtilitaire.initialisationRequetePreparee;
  * Created by Fabien on 14/07/2015.
  */
 public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
+    private static final String SELECT_OEUVRE = "SELECT * FROM Database.Oeuvre WHERE titre = ? AND auteur = ?";
     private static final String SELECT_OEUVRES = "SELECT * FROM Database.Oeuvre";
+
+    private static final String INSERT_OEUVRE = "INSERT INTO Database.Oeuvre (titre, auteur, typeOeuvre, quantite, empruntable) VALUES (?, ?, ?, ?, ?)";
+
 
     /**
      * Constructeur
@@ -32,8 +38,36 @@ public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
     }
 
     @Override
-    public void create(Oeuvre obj) {
+    public void create(Oeuvre obj) throws AlreadyExistsException {
+        Connection connexion = null;
+        PreparedStatement requete = null;
+        PreparedStatement requeteEtu = null;
+        ResultSet valeurGenere = null;
 
+        try {
+            find(obj.getTitre(), obj.getAuteur());
+            throw new AlreadyExistsException("Cette oeuvre existe déjà.");
+        } catch (NotFoundException nfe) {
+            try {
+                connexion = daoFactory.getConnection();
+
+                requete = initialisationRequetePreparee(connexion, INSERT_OEUVRE, true, obj.getTitre(), obj.getAuteur(), obj.getType(), obj.getQuantite(), obj.isEmpruntable());
+                if (requete.executeUpdate() == 0) {
+                    throw new DAOException("Échec lors de l'insertion de l'oeuvre, aucune ligne dans la table Oeuvre.");
+                }
+                valeurGenere = requete.getGeneratedKeys();
+                if (valeurGenere.next()) {
+                    obj.setId(valeurGenere.getInt(1));
+                } else {
+                    throw new DAOException("Échec de la création de l'oeuvre en base, aucun ID auto-généré retourné.");
+                }
+            } catch (SQLException e) {
+                throw new DAOException(e);
+            } finally {
+                fermetureSilencieuse(requeteEtu);
+                fermeturesSilencieuses(valeurGenere, requete, connexion);
+            }
+        }
     }
 
     @Override
@@ -51,10 +85,20 @@ public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
         return null;
     }
 
+    public Oeuvre find(String titre, String type) throws NotFoundException{
+        try {
+            return trouver(SELECT_OEUVRE, titre, type).get(0);
+        } catch (IndexOutOfBoundsException e) {
+            throw new NotFoundException("Oeuvre not found", e);
+        }
+    }
+
     @Override
     public List<Oeuvre> findAll() throws NotFoundException {
         return trouver(SELECT_OEUVRES);
     }
+
+
 
     private List<Oeuvre> trouver(String sql, Object... objets) {
         Connection connexion = null;

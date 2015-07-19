@@ -1,5 +1,6 @@
 package rmi;
 
+import dao.configuration.AlreadyExistsException;
 import dao.configuration.NotFoundException;
 import oeuvres.Oeuvre;
 
@@ -13,7 +14,7 @@ public interface RMIService extends Remote{
 
     List<Oeuvre> getAllOeuvres() throws RemoteException, NotFoundException;
 
-    void addOeuvre(Oeuvre oeuvre) throws RemoteException;
+    void addOeuvre(Oeuvre oeuvre) throws RemoteException, AlreadyExistsException;
 
     void modifierOeuvre(int id, Oeuvre oeuvre) throws RemoteException;
 

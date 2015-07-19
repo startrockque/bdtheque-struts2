@@ -2,6 +2,7 @@ package dao.interfaces;
 
 
 import dao.DAOFactory;
+import dao.configuration.AlreadyExistsException;
 import dao.configuration.NotFoundException;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public abstract class DAO<T> {
      * @param obj
      *          Objet
      */
-    public abstract void create(T obj);
+    public abstract void create(T obj) throws AlreadyExistsException;
 
     /**
      * Méthode pour effacer
