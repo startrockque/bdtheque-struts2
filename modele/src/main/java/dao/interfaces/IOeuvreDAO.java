@@ -20,4 +20,6 @@ public interface IOeuvreDAO {
     Oeuvre find (int id) throws NotFoundException;
 
     List<Oeuvre> findAll() throws NotFoundException;
+
+    void remove(int id);
 }

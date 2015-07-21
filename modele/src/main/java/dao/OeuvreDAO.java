@@ -24,9 +24,13 @@ import static dao.configuration.DAOUtilitaire.initialisationRequetePreparee;
 public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
     private static final String SELECT_OEUVRE = "SELECT * FROM Database.Oeuvre WHERE titre = ? AND auteur = ?";
     private static final String SELECT_OEUVRES = "SELECT * FROM Database.Oeuvre";
+    private static final String SELECT_OEUVRE_BY_ID = "SELECT * FROM Database.Oeuvre WHERE idOeuvre = ?";
 
     private static final String INSERT_OEUVRE = "INSERT INTO Database.Oeuvre (titre, auteur, typeOeuvre, quantite, empruntable) VALUES (?, ?, ?, ?, ?)";
 
+    private static final String UPDATE_OEUVRE = "UPDATE Database.Oeuvre SET titre = ?, auteur = ?, typeOeuvre = ?, quantite = ?, empruntable = ? WHERE idOeuvre = ?";
+
+    private static final String DELETE_OEUVRE = "DELETE FROM Database.Oeuvre WHERE idOeuvre = ?";
 
     /**
      * Constructeur
@@ -76,13 +80,54 @@ public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
     }
 
     @Override
-    public void update(Oeuvre obj) {
+    public void remove(int id) {
+        Connection connexion = null;
+        PreparedStatement requeteReponses = null;
+        PreparedStatement requeteQuotat = null;
 
+        try {
+            connexion = daoFactory.getConnection();
+
+            requeteQuotat = initialisationRequetePreparee(connexion, DELETE_OEUVRE, true, id);
+
+            if (requeteQuotat.executeUpdate() == 0) {
+                throw new DAOException("Échec de la suppression de l'oeuvre");
+            }
+        } catch ( SQLException e ) {
+            throw new DAOException( e );
+        } finally {
+            fermeturesSilencieuses(requeteReponses, connexion );
+        }
+    }
+
+    @Override
+    public void update(Oeuvre obj) {
+        Connection connexion = null;
+        PreparedStatement requeteReponses = null;
+        PreparedStatement requeteQuotat = null;
+
+        try {
+            connexion = daoFactory.getConnection();
+
+            requeteQuotat = initialisationRequetePreparee(connexion, UPDATE_OEUVRE, true, obj.getTitre(), obj.getAuteur(), obj.getType(), obj.getQuantite(), obj.isEmpruntable(), obj.getId());
+
+            if (requeteQuotat.executeUpdate() == 0) {
+                throw new DAOException("Échec de la mise à jour de l'oeuvre");
+            }
+        } catch ( SQLException e ) {
+            throw new DAOException( e );
+        } finally {
+            fermeturesSilencieuses(requeteReponses, connexion );
+        }
     }
 
     @Override
     public Oeuvre find(int id) throws NotFoundException {
-        return null;
+        try {
+            return trouver(SELECT_OEUVRE_BY_ID, id).get(0);
+        }  catch (IndexOutOfBoundsException e) {
+            throw new NotFoundException("Oeuvre not found", e);
+        }
     }
 
     public Oeuvre find(String titre, String type) throws NotFoundException{

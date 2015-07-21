@@ -14,9 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Fabien on 07/07/2015.
- */
 public class OeuvresActions extends ActionSupport implements ApplicationAware, SessionAware {
     private RMIService rmiService;
 
@@ -29,8 +26,6 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     private String messageKO;
 
     private int pageNumber;
-    private int pageNumberM;
-    private int pageNumberE;
 
     private int idOeuvre;
     private String titre;
@@ -50,7 +45,7 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
         return SUCCESS;
     }
 
-    public String addOeuvre() throws RemoteException{
+    public String addOeuvre() throws RemoteException {
         loadTypes();
         Oeuvre oeuvre = OeuvreFactory.createOeuvre(type);
         oeuvre.setTitre(titre);
@@ -60,9 +55,10 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
         oeuvre.setEmpruntable(empruntable);
         try {
             rmiService.addOeuvre(oeuvre);
-            messageOK = "Ajout de " + titre + " à la base de données."+ type;
+            messageOK = "Ajout de " + titre + " à la base de données.";
         } catch (AlreadyExistsException e) {
             messageKO = "Cette oeuvre est déjà dans la base de données.";
+            return ERROR;
         }
         return SUCCESS;
     }
@@ -74,11 +70,35 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
         listeTypes.add("Manga");
     }
 
-    public String toModifierOeuvre() {
+    public String toModifierOeuvre() throws RemoteException {
+        try {
+            Oeuvre oeuvre = rmiService.getOeuvre(idOeuvre);
+            titre = oeuvre.getTitre();
+            auteur = oeuvre.getAuteur();
+            type = oeuvre.getType();
+            quantite = oeuvre.getQuantite();
+            empruntable = oeuvre.isEmpruntable();
+        } catch (NotFoundException e) {
+            messageKO = "Oeuvre non trouvée dans la base de données.";
+        }
+        loadTypes();
         return SUCCESS;
     }
 
-    public String modifierOeuvre() {
+    public String modifierOeuvre() throws NotFoundException, RemoteException {
+        Oeuvre oeuvre = OeuvreFactory.createOeuvre(type);
+        oeuvre.setId(idOeuvre);
+        oeuvre.setTitre(titre);
+        oeuvre.setAuteur(auteur);
+        oeuvre.setQuantite(quantite);
+        oeuvre.setEmpruntable(empruntable);
+        try {
+            rmiService.modifierOeuvre(oeuvre);
+            messageOK = "Modification effectuée.";
+        } catch (RemoteException e) {
+            messageKO = "Problème de connexion à la base de données.";
+        }
+        getAllOeuvres();
         return SUCCESS;
     }
 
@@ -109,22 +129,6 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
     public void setPageNumber(int pageNumber) {
         this.pageNumber = pageNumber;
-    }
-
-    public int getPageNumberM() {
-        return pageNumberM;
-    }
-
-    public void setPageNumberM(int pageNumberM) {
-        this.pageNumberM = pageNumberM;
-    }
-
-    public int getPageNumberE() {
-        return pageNumberE;
-    }
-
-    public void setPageNumberE(int pageNumberE) {
-        this.pageNumberE = pageNumberE;
     }
 
     public List<Oeuvre> getListeOeuvres() {

@@ -54,7 +54,7 @@
                                     </s:div>
                                     <s:div>
                                         <br/>
-                                        <s:select name="type" list="listeTypes" listKey="nom" listvalue="nom" cssClass="col-md-7"/>
+                                        <s:select name="type" list="listeTypes" cssClass="col-md-7"/>
                                     </s:div>
                                     <br/>
                                     <s:div>
@@ -72,7 +72,7 @@
                                         </s:div>
                                     </p>
                                     <s:div>
-                                        <s:submit disabled="true" id="btnCreer" cssClass="btn btn-block btn-success" key="admin.creer"/>
+                                        <s:submit disabled="true" id="btn" cssClass="btn btn-block btn-success" key="admin.creer"/>
                                     </s:div>
                                 </s:form>
                             </s:div>

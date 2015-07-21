@@ -42,6 +42,13 @@
     <section class="content">
         <s:div cssClass="container">
             <s:div cssClass="col-md-11">
+                <s:if test="messageOK!=null">
+                    <s:div cssClass="alert alert-success alert-dismissable col-md-10" role="alert">
+                        <i class="glyphicon glyphicon-floppy-saved"></i>
+                        <s:property value="messageOK"/>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </s:div>
+                </s:if>
                 <s:if test="listeOeuvres.size==0">
                     <p class="alert-danger col-md-10 col-md-offset-1"><s:text name="admin.noOeuvres"/></p>
                 </s:if>
@@ -73,8 +80,9 @@
                                 <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
                             </s:url>
                             <th><s:a href="%{modifier}" cssClass="btn btn-primary btn-primary"><span class="glyphicon glyphicon-wrench"></span></s:a></th>
+
                             <s:url id="suppr" action="supprimerOeuvre" namespace="/">
-                            <s:param name="idOeuvre"><s:property value="#oeuvre.id"/> </s:param>
+                                <s:param name="idOeuvre"><s:property value="#oeuvre.id"/> </s:param>
                                 <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
                             </s:url>
                             <th><s:a href="%{suppr}" cssClass="btn btn-primary btn-danger"><span class="glyphicon glyphicon-ok"></span></s:a></th>
