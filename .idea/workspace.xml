@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468ee9c1-e41f-4538-b9c2-da666cf5b134" name="Default" comment="Affichage de la lsiste des livres avec pagination par page de 20.&#10;Mise en place de l'affichage d'une liste d'emprunts sur la page d'acceuil pour les retards.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\JS\js.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\JS\verifLogin.js" afterPath="" />
     </list>
     <list id="c1449f04-2167-4015-bd03-8fc198c6a6df" name="DoNotCommit" comment="">
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\classes\admin\MembresActions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\membre\ajoutMembre.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\membre\listeMembres.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\MembresActions.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IOeuvreDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IOeuvreDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IUserDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IUserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/OeuvreDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/OeuvreDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/rmi/RMIService.class" afterPath="$PROJECT_DIR$/modele/target/classes/rmi/RMIService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/rmi/RMIServiceImpl.class" afterPath="$PROJECT_DIR$/modele/target/classes/rmi/RMIServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/lib/modele-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/lib/modele-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd/bdtheque.mv.db" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd/bdtheque.mv.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd/bdtheque.trace.db" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd/bdtheque.trace.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/listeOeuvres.jsp" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/modifierOeuvre.jsp" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/admin/oeuvre/modifierOeuvre.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/package.properties" afterPath="$PROJECT_DIR$/struts/target/classes/admin/package.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/package.properties" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/admin/package.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/struts.xml" afterPath="$PROJECT_DIR$/struts/target/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BDThèque.iws" />
@@ -31,27 +49,133 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BDThèque" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OeuvresActions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OeuvresActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36848205">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OeuvreFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java">
+      <file leaf-file-name="UserActions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/UserActions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+              <folding>
+                <element signature="e#4280#4281#0" expanded="true" />
+                <element signature="e#4317#4318#0" expanded="true" />
+                <element signature="e#4357#4358#0" expanded="true" />
+                <element signature="e#4389#4390#0" expanded="true" />
+                <element signature="e#4443#4444#0" expanded="true" />
+                <element signature="e#4485#4486#0" expanded="true" />
+                <element signature="e#4533#4534#0" expanded="true" />
+                <element signature="e#4571#4572#0" expanded="true" />
+                <element signature="e#4639#4640#0" expanded="true" />
+                <element signature="e#4693#4694#0" expanded="true" />
+                <element signature="e#4729#4730#0" expanded="true" />
+                <element signature="e#4761#4762#0" expanded="true" />
+                <element signature="e#4811#4812#0" expanded="true" />
+                <element signature="e#4853#4854#0" expanded="true" />
+                <element signature="e#4889#4890#0" expanded="true" />
+                <element signature="e#4921#4922#0" expanded="true" />
+                <element signature="e#4971#4972#0" expanded="true" />
+                <element signature="e#5013#5014#0" expanded="true" />
+                <element signature="e#5048#5049#0" expanded="true" />
+                <element signature="e#5082#5083#0" expanded="true" />
+                <element signature="e#5133#5134#0" expanded="true" />
+                <element signature="e#5179#5180#0" expanded="true" />
+                <element signature="e#5209#5210#0" expanded="true" />
+                <element signature="e#5238#5239#0" expanded="true" />
+                <element signature="e#5279#5280#0" expanded="true" />
+                <element signature="e#5315#5316#0" expanded="true" />
+                <element signature="e#5345#5346#0" expanded="true" />
+                <element signature="e#5371#5372#0" expanded="true" />
+                <element signature="e#5409#5410#0" expanded="true" />
+                <element signature="e#5439#5440#0" expanded="true" />
+                <element signature="e#5472#5473#0" expanded="true" />
+                <element signature="e#5501#5502#0" expanded="true" />
+                <element signature="e#5545#5546#0" expanded="true" />
+                <element signature="e#5581#5582#0" expanded="true" />
+                <element signature="e#5612#5613#0" expanded="true" />
+                <element signature="e#5639#5640#0" expanded="true" />
+                <element signature="e#5679#5680#0" expanded="true" />
+                <element signature="e#5711#5712#0" expanded="true" />
+                <element signature="e#5741#5742#0" expanded="true" />
+                <element signature="e#5767#5768#0" expanded="true" />
+                <element signature="e#5805#5806#0" expanded="true" />
+                <element signature="e#5835#5836#0" expanded="true" />
+                <element signature="e#5871#5872#0" expanded="true" />
+                <element signature="e#5903#5904#0" expanded="true" />
+                <element signature="e#5953#5954#0" expanded="true" />
+                <element signature="e#5995#5996#0" expanded="true" />
+                <element signature="e#6026#6027#0" expanded="true" />
+                <element signature="e#6056#6057#0" expanded="true" />
+                <element signature="e#6099#6100#0" expanded="true" />
+                <element signature="e#6137#6138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.8">
+              <caret line="81" column="66" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifierOeuvre.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.029411">
+              <caret line="81" column="65" selection-start-line="80" selection-start-column="36" selection-end-line="81" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminLTETopLeft.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.6470585">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifierUser.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/modifierUser.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28">
+              <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -61,57 +185,17 @@
         <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OeuvreDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
-              <folding>
-                <marker date="1436896463112" expanded="true" signature="5092:5128" placeholder="CREATE SCHEM..IF..." />
-                <marker date="1436896463112" expanded="true" signature="5150:5592" placeholder="CREATE TABLE..IF..." />
-                <marker date="1436896463112" expanded="true" signature="5614:6085" placeholder="CREATE TABLE..IF..." />
-                <marker date="1436896463112" expanded="true" signature="6107:6498" placeholder="CREATE TABLE..IF..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOeuvreDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RMIService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+              <caret line="88" column="199" selection-start-line="88" selection-start-column="199" selection-end-line="88" selection-end-column="199" />
               <folding />
             </state>
           </provider>
@@ -126,6 +210,7 @@
         <option value="struts_2_3" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -144,14 +229,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/adminLTE/accueilAdmin.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/verifLogin.js" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/accueil/accueil_connecte.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/java/login.xml" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/struts/src/main/resources/adminLTE/package.properties" />
         <option value="$PROJECT_DIR$/struts/src/main/java/admin/EmpruntsActions.java" />
-        <option value="$PROJECT_DIR$/struts/src/main/java/admin/MembresActions.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/AdminLTE.css" />
         <option value="$PROJECT_DIR$/struts/src/main/resources/login.xml" />
         <option value="$PROJECT_DIR$/struts/src/main/resources/logged.xml" />
@@ -172,29 +250,36 @@
         <option value="$PROJECT_DIR$/modele/src/main/java/users/Membre.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/resources/struts.xml" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/js.js" />
-        <option value="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" />
-        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/java/rmi/InitRemoteService.java" />
         <option value="$PROJECT_DIR$/modele/pom.xml" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/configuration/InsertDb.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/QcmDao.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/EmpruntDAO.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java" />
         <option value="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
         <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
-        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
         <option value="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IUserDAO.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/users/UserFactory.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/java/admin/MembresActions.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/listeUser.jsp" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp" />
         <option value="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/JS/js.js" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" />
+        <option value="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/ajoutUser.jsp" />
+        <option value="$PROJECT_DIR$/struts/src/main/java/admin/UserActions.java" />
+        <option value="$PROJECT_DIR$/struts/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/modifierUser.jsp" />
       </list>
     </option>
   </component>
@@ -253,9 +338,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,424 +435,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oeuvre" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminLTE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accueil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accueil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rmi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accueil" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1054,6 +720,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1063,7 +730,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sprinth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1093,6 +760,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="JavaScriptLanguageLevel" value="JSX" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1381,6 +1049,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -1521,7 +1192,10 @@
       <workItem from="1436889325834" duration="6011000" />
       <workItem from="1436897169424" duration="2339000" />
       <workItem from="1436951827452" duration="2037000" />
-      <workItem from="1436976285771" duration="4130000" />
+      <workItem from="1436976285771" duration="4236000" />
+      <workItem from="1437334088181" duration="4801000" />
+      <workItem from="1437485995679" duration="5459000" />
+      <workItem from="1437491649090" duration="11055000" />
     </task>
     <task id="LOCAL-00001" summary="login basique">
       <created>1436292793695</created>
@@ -1565,11 +1239,17 @@
       <option name="project" value="LOCAL" />
       <updated>1436976717938</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Gestion des oeuvres et gestion des membres terminées.">
+      <created>1437502329197</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1437502329197</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64179000" />
+    <option name="totallyTimeSpent" value="85600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1584,12 +1264,13 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42028984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1600,7 +1281,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1623,25 +1304,26 @@
     <MESSAGE value="Affichage de la lsiste des livres avec pagination par page de 20.&#10;Mise en place de l'affichage d'une liste d'emprunts sur la page d'acceuil pour les retards." />
     <MESSAGE value="Ajout de la page d'ajout d'oeuvres" />
     <MESSAGE value="Mise en place RMI, DAO et H2Database.&#10;Ajout d'une &quot;Factory&quot; d'oeuvres." />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place RMI, DAO et H2Database.&#10;Ajout d'une &quot;Factory&quot; d'oeuvres." />
+    <MESSAGE value="Gestion des oeuvres et gestion des membres terminées." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gestion des oeuvres et gestion des membres terminées." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java</url>
-          <line>43</line>
+          <line>38</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java</url>
-          <line>94</line>
+          <line>114</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java</url>
-          <line>93</line>
+          <line>113</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1655,157 +1337,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7431507">
-          <caret line="3538" column="0" selection-start-line="3538" selection-start-column="0" selection-end-line="3538" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/Membre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/accueil_connecte.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="104" selection-start-line="34" selection-start-column="104" selection-end-line="34" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/admin/package.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jgeppert/struts2/bootstrap/struts2-bootstrap-plugin/2.0.0/struts2-bootstrap-plugin-2.0.0.jar!/template/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4178082">
-          <caret line="6" column="13313" selection-start-line="6" selection-start-column="13208" selection-end-line="6" selection-end-column="13313" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jgeppert/struts2/bootstrap/struts2-bootstrap-plugin/2.0.0/struts2-bootstrap-plugin-2.0.0.jar!/template/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3292" column="53" selection-start-line="3292" selection-start-column="45" selection-end-line="3292" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/JS/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOUtilitaire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11587486">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05793743">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/DAOConfigurationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05793743">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/configuration/InsertDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05793743">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/resources/dao/dao.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IEmpruntDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22045855">
@@ -1834,35 +1365,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4345307">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14484356">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
           <folding>
-            <element signature="e#2164#2165#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="false" />
+            <element signature="e#2201#2202#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1879,7 +1388,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1975,8 +1484,8 @@
         <state vertical-scroll-proportion="0.17381229">
           <caret line="6" column="44" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="44" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1989,10 +1498,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/accueil/package.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../QcmGroupeE/projetE-struts/src/main/webapp/WEB-INF/admin/QCM/modifQcm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6818182">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../QcmGroupeE/projetE-struts/src/main/webapp/WEB-INF/admin/QCM/modifierQuestion.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27272728">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../QcmGroupeE/projetE-struts/src/main/webapp/WEB-INF/admin/User/modifUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4090909">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Livre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29965752">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29965752">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29965752">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/users/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23174971">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#123#124#0" expanded="false" />
+            <element signature="e#158#159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+          <folding>
+            <element signature="e#4484#4485#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
+            <marker date="1436896463112" expanded="true" signature="-1:-1" placeholder="CREATE SCHEM..IF..." />
+            <marker date="1436896463112" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1436896463112" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1436896463112" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46349943">
+          <caret line="16" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20278099">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
+            <element signature="method#delete#0;class#OeuvreDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55040556">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/rmi/Remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7531866">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/listeUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24125452">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="83" column="69" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/JS/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8181818">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.6470585">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -2000,57 +1675,133 @@
     <entry file="file://$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java">
+    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <caret line="88" column="199" selection-start-line="88" selection-start-column="199" selection-end-line="88" selection-end-column="199" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java">
+    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/admin/package.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
-          <folding>
-            <marker date="1436896463112" expanded="true" signature="5092:5128" placeholder="CREATE SCHEM..IF..." />
-            <marker date="1436896463112" expanded="true" signature="5150:5592" placeholder="CREATE TABLE..IF..." />
-            <marker date="1436896463112" expanded="true" signature="5614:6085" placeholder="CREATE TABLE..IF..." />
-            <marker date="1436896463112" expanded="true" signature="6107:6498" placeholder="CREATE TABLE..IF..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/ajoutUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.558823">
+          <caret line="64" column="38" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.8">
+          <caret line="81" column="66" selection-start-line="81" selection-start-column="66" selection-end-line="81" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36848205">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/java/admin/UserActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding>
+            <element signature="e#4280#4281#0" expanded="true" />
+            <element signature="e#4317#4318#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4389#4390#0" expanded="true" />
+            <element signature="e#4443#4444#0" expanded="true" />
+            <element signature="e#4485#4486#0" expanded="true" />
+            <element signature="e#4533#4534#0" expanded="true" />
+            <element signature="e#4571#4572#0" expanded="true" />
+            <element signature="e#4639#4640#0" expanded="true" />
+            <element signature="e#4693#4694#0" expanded="true" />
+            <element signature="e#4729#4730#0" expanded="true" />
+            <element signature="e#4761#4762#0" expanded="true" />
+            <element signature="e#4811#4812#0" expanded="true" />
+            <element signature="e#4853#4854#0" expanded="true" />
+            <element signature="e#4889#4890#0" expanded="true" />
+            <element signature="e#4921#4922#0" expanded="true" />
+            <element signature="e#4971#4972#0" expanded="true" />
+            <element signature="e#5013#5014#0" expanded="true" />
+            <element signature="e#5048#5049#0" expanded="true" />
+            <element signature="e#5082#5083#0" expanded="true" />
+            <element signature="e#5133#5134#0" expanded="true" />
+            <element signature="e#5179#5180#0" expanded="true" />
+            <element signature="e#5209#5210#0" expanded="true" />
+            <element signature="e#5238#5239#0" expanded="true" />
+            <element signature="e#5279#5280#0" expanded="true" />
+            <element signature="e#5315#5316#0" expanded="true" />
+            <element signature="e#5345#5346#0" expanded="true" />
+            <element signature="e#5371#5372#0" expanded="true" />
+            <element signature="e#5409#5410#0" expanded="true" />
+            <element signature="e#5439#5440#0" expanded="true" />
+            <element signature="e#5472#5473#0" expanded="true" />
+            <element signature="e#5501#5502#0" expanded="true" />
+            <element signature="e#5545#5546#0" expanded="true" />
+            <element signature="e#5581#5582#0" expanded="true" />
+            <element signature="e#5612#5613#0" expanded="true" />
+            <element signature="e#5639#5640#0" expanded="true" />
+            <element signature="e#5679#5680#0" expanded="true" />
+            <element signature="e#5711#5712#0" expanded="true" />
+            <element signature="e#5741#5742#0" expanded="true" />
+            <element signature="e#5767#5768#0" expanded="true" />
+            <element signature="e#5805#5806#0" expanded="true" />
+            <element signature="e#5835#5836#0" expanded="true" />
+            <element signature="e#5871#5872#0" expanded="true" />
+            <element signature="e#5903#5904#0" expanded="true" />
+            <element signature="e#5953#5954#0" expanded="true" />
+            <element signature="e#5995#5996#0" expanded="true" />
+            <element signature="e#6026#6027#0" expanded="true" />
+            <element signature="e#6056#6057#0" expanded="true" />
+            <element signature="e#6099#6100#0" expanded="true" />
+            <element signature="e#6137#6138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.029411">
+          <caret line="81" column="65" selection-start-line="80" selection-start-column="36" selection-end-line="81" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/47553086-3671-4254-bf11-d1b7f0183d94/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/modifierUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
           <folding />
         </state>
       </provider>

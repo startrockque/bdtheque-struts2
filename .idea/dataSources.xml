@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="737583686">
+    <data-source source="LOCAL" name="H2 - bdtheque" uuid="47553086-3671-4254-bf11-d1b7f0183d94">
+      <driver-ref>h2.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd/bdtheque</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

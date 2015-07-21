@@ -26,10 +26,16 @@
   <![endif]-->
 
   <script>
-    function verifOeuvre()
-    {
-      document.formulaire.btnCreer.disabled = document.formulaire.titre.value == "" || document.formulaire.auteur.value == "";
+    function verifOeuvre(){
+      document.formulaire.btn.disabled = document.formulaire.titre.value == "" || document.formulaire.auteur.value == "";
     }
+
+    function verifUser() {
+      document.formulaire.btn.disabled = document.formulaire.nom.value == "" || document.formulaire.prenom.value == "" || document.formulaire.mail.value == "" || document.formulaire.tel.value == "" || document.formulaire.chambre.value == 0;
+    }
+  </script>
+
+
   </script>
 
   <sb:head/>
@@ -112,7 +118,7 @@
             <li>
               <s:url id="addMembre" namespace="/" action="ajoutMembres"/>
               <s:a href="%{addMembre}">
-                <i class="glyphicon glyphicon-plus-sign"></i><span><s:text name="admin.addMembre"/></span>
+                <i class="glyphicon glyphicon-plus-sign"></i><span><s:text name="admin.addUser"/></span>
               </s:a>
             </li>
           </ul>

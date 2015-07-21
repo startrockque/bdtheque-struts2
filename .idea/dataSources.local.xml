@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="H2 - bdtheque" uuid="47553086-3671-4254-bf11-d1b7f0183d94">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>BDTHEQUE.PUBLIC</schema-pattern>
+      <default-schemas>BDTHEQUE.PUBLIC</default-schemas>
+    </data-source>
+  </component>
+</project>

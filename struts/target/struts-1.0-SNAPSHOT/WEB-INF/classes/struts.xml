@@ -24,7 +24,6 @@
             <result>/WEB-INF/accueil/accueil.jsp</result>
         </action>
 
-
         <action name="Login" class="login.Login">
             <result name="success" type="redirectAction">
                 <param name="actionName">acceuilConnecte</param>
@@ -36,6 +35,7 @@
         <action name="acceuilConnecte" class="admin.AccueilAdmin">
             <result>/WEB-INF/admin/accueil_connecte.jsp</result>
         </action>
+
 
 
         <action name="listeOeuvres" class="admin.OeuvresActions" method="getAllOeuvres">
@@ -54,16 +54,41 @@
             <result>/WEB-INF/admin/oeuvre/modifierOeuvre.jsp</result>
         </action>
 
+        <action name="modifierOeuvre" class="admin.OeuvresActions" method="modifierOeuvre">
+            <result name="success">/WEB-INF/admin/oeuvre/listeOeuvres.jsp</result>
+            <result name="error">/WEB-INF/admin/oeuvre/modifierOeuvre.jsp</result>
+        </action>
+
         <action name="supprimerOeuvre" class="admin.OeuvresActions" method="supprimerOeuvre">
             <result>/WEB-INF/admin/oeuvre/listeOeuvres.jsp</result>
         </action>
 
 
-        <action name="listeMembres" class="admin.MembresActions" method="getAllMembers">
-            <result>/WEB-INF/admin/membre/listeMembres.jsp</result>
+
+        <action name="listeMembres" class="admin.UserActions" method="getAllUsers">
+            <result>/WEB-INF/admin/user/listeUser.jsp</result>
         </action>
-        <action name="ajoutMembres" class="admin.MembresActions" method="toAddMembers">
-            <result>/WEB-INF/admin/membre/ajoutMembre.jsp</result>
+
+        <action name="ajoutMembres" class="admin.UserActions" method="toAddUser">
+            <result>/WEB-INF/admin/user/ajoutUser.jsp</result>
+        </action>
+
+        <action name="creerUser" class="admin.UserActions" method="addUser">
+            <result>/WEB-INF/admin/user/ajoutUser.jsp</result>
+        </action>
+
+        <action name="toModifierUser" class="admin.UserActions" method="toModifierUser">
+            <result name="success">/WEB-INF/admin/user/modifierUser.jsp</result>
+            <result name="error">/WEB-INF/admin/user/listeUser.jsp</result>
+        </action>
+
+        <action name="modifierUser" class="admin.UserActions" method="modifierUser">
+            <result name="success">/WEB-INF/admin/user/listeUser.jsp</result>
+            <result name="error">/WEB-INF/admin/user/modifierUser.jsp</result>
+        </action>
+
+        <action name="supprimerUser" class="admin.UserActions" method="supprimerUser">
+            <result>/WEB-INF/admin/user/listeUser.jsp</result>
         </action>
 
 

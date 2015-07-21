@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 - bdtheque" uuid="47553086-3671-4254-bf11-d1b7f0183d94">
+    <database-info product="H2" version="1.3.175 (2014-01-18)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.175 (2014-01-18)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="BDTHEQUE"/>
+  </data-source>
+</component>
