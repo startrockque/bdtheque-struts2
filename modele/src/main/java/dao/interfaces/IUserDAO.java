@@ -19,6 +19,8 @@ public interface IUserDAO {
 
     public User find(int id) throws NotFoundException;
 
+    User find(String nom, String prenom) throws NotFoundException;
+
     public List<User> findAll() throws NotFoundException;
 
     void remove (int id);

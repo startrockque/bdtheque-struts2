@@ -45,7 +45,7 @@ public abstract class DAO<T> {
      * @param obj
      *          Objet
      */
-    public abstract void update(T obj);
+    public abstract void update(T obj) throws AlreadyExistsException;
 
     /**
      * Méthode de recherche des informations

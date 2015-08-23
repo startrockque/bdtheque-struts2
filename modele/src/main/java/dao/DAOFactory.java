@@ -121,13 +121,11 @@ public class DAOFactory {
         try {
             this.connection = connectionPool.getConnection();
         } catch (SQLException e1) {
-            // TODO Auto-generated catch block
             e1.printStackTrace();
         }
         try {
             this.stmt = this.connection.createStatement();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 

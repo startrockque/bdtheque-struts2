@@ -1,7 +1,7 @@
 package dao.configuration;
 
 /**
- * Created by Dylan on 26/12/2014.
+ * Une exception qui est renvoyée dans le cas ou l'élément recherché n'est pas dans la base de données.
  */
 public class NotFoundException extends Exception {
     public NotFoundException( String message ) {

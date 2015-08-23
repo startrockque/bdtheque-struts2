@@ -66,7 +66,7 @@
                                     <br/>
                                     <s:div>
                                         <br/>Quantité : <br/>
-                                        <s:textfield type="number" name="quantite" placeholder="Quantité" step="1" min="1" cssClass="col-md-3"/>
+                                        <s:textfield type="number" name="quantite" placeholder="Quantité" step="1" min="0" cssClass="col-md-3"/>
                                     </s:div>
 
                                     <br/>

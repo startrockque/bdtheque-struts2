@@ -107,6 +107,7 @@ public class UserDao extends DAO<User> implements IUserDAO {
         }
     }
 
+    @Override
     public User find (String nom, String prenom) throws NotFoundException {
         try {
             return trouver(SELECT_USER, nom, prenom).get(0);

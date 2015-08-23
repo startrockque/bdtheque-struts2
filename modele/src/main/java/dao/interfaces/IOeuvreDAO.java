@@ -15,11 +15,15 @@ public interface IOeuvreDAO {
 
     void delete (Oeuvre oeuvre);
 
-    void update (Oeuvre oeuvre);
+    void update (Oeuvre oeuvre) throws AlreadyExistsException;
 
     Oeuvre find (int id) throws NotFoundException;
 
+    Oeuvre find(String titre, String type) throws NotFoundException;
+
     List<Oeuvre> findAll() throws NotFoundException;
+
+    List<Oeuvre> findAllEmpruntables();
 
     void remove(int id);
 }

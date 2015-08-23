@@ -26,7 +26,7 @@ public class UserActions extends ActionSupport implements SessionAware, Applicat
     private String messageOK;
     private String messageKO;
 
-    private int pageNumberU;
+    private int pageNumber;
 
     private int idUser;
     private String nom;
@@ -67,7 +67,7 @@ public class UserActions extends ActionSupport implements SessionAware, Applicat
     }
 
     private void loadResidences(){
-        listeResidences = new ArrayList<>();
+        listeResidences = new ArrayList<String>();
         listeResidences.add("Aristote 1");
         listeResidences.add("Aristote 2");
         listeResidences.add("Aristote 3");
@@ -173,12 +173,12 @@ public class UserActions extends ActionSupport implements SessionAware, Applicat
         this.messageKO = messageKO;
     }
 
-    public int getPageNumberU() {
-        return pageNumberU;
+    public int getPageNumber() {
+        return pageNumber;
     }
 
-    public void setPageNumberU(int pageNumberU) {
-        this.pageNumberU = pageNumberU;
+    public void setPageNumber(int pageNumber) {
+        this.pageNumber = pageNumber;
     }
 
     public int getIdUser() {

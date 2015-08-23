@@ -3,6 +3,7 @@ package rmi;
 import dao.DAOFactory;
 import dao.configuration.AlreadyExistsException;
 import dao.configuration.NotFoundException;
+import emprunts.Emprunt;
 import oeuvres.Oeuvre;
 import users.User;
 
@@ -25,8 +26,18 @@ public class RMIServiceImpl implements RMIService {
     }
 
     @Override
+    public List<Oeuvre> getAllOeuvresEmpruntables() throws RemoteException {
+        return daoFactory.getOeuvreDAO().findAllEmpruntables();
+    }
+
+    @Override
     public Oeuvre getOeuvre(int idOeuvre) throws NotFoundException {
         return daoFactory.getOeuvreDAO().find(idOeuvre);
+    }
+
+    @Override
+    public Oeuvre getOeuvre(String titre, String type) throws RemoteException, NotFoundException {
+        return daoFactory.getOeuvreDAO().find(titre, type);
     }
 
     @Override
@@ -35,7 +46,7 @@ public class RMIServiceImpl implements RMIService {
     }
 
     @Override
-    public void modifierOeuvre(Oeuvre oeuvre) throws RemoteException {
+    public void modifierOeuvre(Oeuvre oeuvre) throws RemoteException, AlreadyExistsException {
         daoFactory.getOeuvreDAO().update(oeuvre);
     }
 
@@ -43,6 +54,8 @@ public class RMIServiceImpl implements RMIService {
     public void supprimerOeuvre(int id) throws RemoteException {
         daoFactory.getOeuvreDAO().remove(id);
     }
+
+
 
 
     @Override
@@ -53,6 +66,11 @@ public class RMIServiceImpl implements RMIService {
     @Override
     public User getUser(int idUser) throws RemoteException, NotFoundException {
         return daoFactory.getUserDao().find(idUser);
+    }
+
+    @Override
+    public User getUser(String nom, String prenom) throws RemoteException, NotFoundException {
+        return daoFactory.getUserDao().find(nom, prenom);
     }
 
     @Override
@@ -68,5 +86,32 @@ public class RMIServiceImpl implements RMIService {
     @Override
     public void supprimerUser(int idUser) throws RemoteException {
         daoFactory.getUserDao().remove(idUser);
+    }
+
+
+
+    @Override
+    public void addEmprunt(Emprunt emprunt) throws RemoteException, AlreadyExistsException {
+        daoFactory.getEmpruntDao().create(emprunt);
+    }
+
+    @Override
+    public List<Emprunt> getAllEmprunts() throws RemoteException, NotFoundException {
+        return daoFactory.getEmpruntDao().findAll();
+    }
+
+    @Override
+    public  List<Emprunt> getAllRetards() throws RemoteException {
+        return daoFactory.getEmpruntDao().findRetard();
+    }
+
+    @Override
+    public Emprunt getEmprunt(int idOeuvre, int idUser) throws RemoteException, NotFoundException {
+        return daoFactory.getEmpruntDao().find(idOeuvre, idUser);
+    }
+
+    @Override
+    public void supprimerEmprunt(int idOeuvre, int idUser) throws RemoteException {
+        daoFactory.getEmpruntDao().remove(idOeuvre, idUser);
     }
 }

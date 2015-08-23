@@ -14,6 +14,9 @@ public class Emprunt {
     private User user;
     private Date retour;
 
+    public Emprunt() {
+    }
+
     public Oeuvre getOeuvre() {
         return oeuvre;
     }

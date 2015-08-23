@@ -27,7 +27,7 @@
                     </s:if>
                 </li>
                 <li>
-                    <s:if test="listeOeuvres.size==20">
+                    <s:if test="listeOeuvresPagine.size==20">
                         <s:url id="next" action="listeOeuvres">
                             <s:param name="pageNumber"><s:property value="%{pageNumber+1}"/></s:param>
                         </s:url>
@@ -62,7 +62,7 @@
                             <th><s:text name="admin.mod"/></th>
                             <th><s:text name="admin.suppr"/></th>
                         </tr>
-                        <s:iterator value="listeOeuvres" var="oeuvre">
+                        <s:iterator value="listeOeuvresPagine" var="oeuvre">
                         <s:if test="%{#oeuvre.empruntable == false }">
                             <tr style="background-color: #dd4b39">
                         </s:if>
@@ -104,7 +104,7 @@
                     </s:if>
                 </li>
                 <li>
-                    <s:if test="listeOeuvres.size==20">
+                    <s:if test="listeOeuvresPagine.size==20">
                         <s:url id="next" action="listeOeuvres">
                             <s:param name="pageNumber"><s:property value="%{pageNumber+1}"/></s:param>
                         </s:url>

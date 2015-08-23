@@ -8,7 +8,7 @@
   <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      <s:text name="admin.modifUser"/>
+      <s:text name="admin.modifOeuvre"/>
     </h1>
     <ol class="breadcrumb">
       <s:url id="accueil" namespace="/" action="acceuilConnecte"/>
@@ -21,11 +21,11 @@
   <!-- Main content -->
   <section class="content">
     <s:div cssClass="container">
-      <s:url id="users" namespace="/" action="listeMembres">
+      <s:url id="emprunts" namespace="/" action="listeEmprunts">
         <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
       </s:url>
-      <s:a href="%{users}">
-        <span><s:text name="admin.listMembre"/></span>
+      <s:a href="%{emprunts}">
+        <span><s:text name="admin.listEmprunt"/></span>
       </s:a>
 
       <s:div cssClass="col-md-9 col-md-offset-2">
@@ -47,10 +47,10 @@
           <s:div cssClass="col-md-10 col-md-offset-0">
             <s:div cssClass="panel panel-primary">
               <s:div cssClass="panel-heading">
-                <h3 class="panel-title"><s:text name="admin.infosUser"/></h3>
+                <h3 class="panel-title"><s:text name="admin.infosEmprunt"/></h3>
               </s:div>
               <s:div cssClass="panel-body">
-                <s:form action="modifierUser" theme="bootstrap" name="formulaire" id="formulaire">
+                <s:form action="modifierEmprunt" theme="bootstrap" name="formulaire" id="formulaire">
                   <s:div>
                     Prénom : <br/>
                     <s:textfield name="prenom" id="prenom" placeholder="Prénom" onkeyup="verifUser()" cssClass="col-md-12 input-higher"/>

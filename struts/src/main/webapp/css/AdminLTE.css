@@ -3537,3 +3537,7 @@ fieldset[disabled] .btn-vk.active {
 .input-higher {
   height: 30px;
 }
+
+.dark {
+  background-color: #dFb5b4;
+}

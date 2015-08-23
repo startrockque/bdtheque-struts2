@@ -19,9 +19,9 @@
         <nav>
             <ul class="pager">
                 <li>
-                    <s:if test="pageNumberU!=0">
+                    <s:if test="pageNumber!=0">
                         <s:url id="prev" action="listeMembres">
-                            <s:param name="pageNumberU"><s:property value="%{pageNumberU-1}"/></s:param>
+                            <s:param name="pageNumber"><s:property value="%{pageNumber-1}"/></s:param>
                         </s:url>
                         <s:a href="%{prev}"><s:text name="admin.prev"/></s:a>
                     </s:if>
@@ -29,7 +29,7 @@
                 <li>
                     <s:if test="listUsers.size==20">
                         <s:url id="next" action="listeMembres">
-                            <s:param name="pageNumberU"><s:property value="%{pageNumberU+1}"/></s:param>
+                            <s:param name="pageNumber"><s:property value="%{pageNumber+1}"/></s:param>
                         </s:url>
                         <s:a href="%{next}"><s:text name="admin.next"/></s:a>
                     </s:if>
@@ -75,13 +75,13 @@
 
                                 <s:url id="modifier" action="toModifierUser">
                                     <s:param name="idUser"><s:property value="#user.id"/> </s:param>
-                                    <s:param name="pageNumberU"><s:property value="pageNumberU"/></s:param>
+                                    <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
                                 </s:url>
                                 <th><s:a href="%{modifier}" cssClass="btn btn-primary btn-primary"><span class="glyphicon glyphicon-wrench"></span></s:a></th>
 
                                 <s:url id="suppr" action="supprimerUser" namespace="/">
                                     <s:param name="idUser"><s:property value="#user.id"/> </s:param>
-                                    <s:param name="pageNumberU"><s:property value="pageNumberU"/></s:param>
+                                    <s:param name="pageNumber"><s:property value="pageNumber"/></s:param>
                                 </s:url>
                                 <th><s:a href="%{suppr}" cssClass="btn btn-primary btn-danger"><span class="glyphicon glyphicon-ok"></span></s:a></th>
                             </tr>
@@ -94,9 +94,9 @@
         <nav>
             <ul class="pager">
                 <li>
-                    <s:if test="pageNumberU!=0">
+                    <s:if test="pageNumber!=0">
                         <s:url id="prev" action="listeMembres">
-                            <s:param name="pageNumberU"><s:property value="%{pageNumberU-1}"/></s:param>
+                            <s:param name="pageNumber"><s:property value="%{pageNumber-1}"/></s:param>
                         </s:url>
                         <s:a href="%{prev}"><s:text name="admin.prev"/></s:a>
                     </s:if>
@@ -104,7 +104,7 @@
                 <li>
                     <s:if test="listUsers.size==20">
                         <s:url id="next" action="listeMembres">
-                            <s:param name="pageNumberU"><s:property value="%{pageNumberU+1}"/></s:param>
+                            <s:param name="pageNumber"><s:property value="%{pageNumber+1}"/></s:param>
                         </s:url>
                         <s:a href="%{next}"><s:text name="admin.next"/></s:a>
                     </s:if>

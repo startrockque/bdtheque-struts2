@@ -68,4 +68,9 @@ public abstract class User {
     public void setChambre(int chambre) {
         this.chambre = chambre;
     }
+
+    @Override
+    public String toString() {
+        return prenom + " || " + nom + " || " + chambre + " || " + residence;
+    }
 }

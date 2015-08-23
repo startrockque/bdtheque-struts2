@@ -38,7 +38,7 @@
 
 
 
-        <action name="listeOeuvres" class="admin.OeuvresActions" method="getAllOeuvres">
+        <action name="listeOeuvres" class="admin.OeuvresActions" method="getAllOeuvresPagine">
             <result>/WEB-INF/admin/oeuvre/listeOeuvres.jsp</result>
         </action>
 
@@ -47,7 +47,8 @@
         </action>
 
         <action name="creerOeuvre" class="admin.OeuvresActions" method="addOeuvre">
-            <result>/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp</result>
+            <result name="success">/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp</result>
+            <result name="error">/WEB-INF/admin/oeuvre/ajoutOeuvre.jsp</result>
         </action>
 
         <action name="toModifierOeuvre" class="admin.OeuvresActions" method="toModifierOeuvre">
@@ -92,15 +93,23 @@
         </action>
 
 
+
         <action name="listeEmprunts" class="admin.EmpruntsActions" method="getAllEmprunts">
             <result>/WEB-INF/admin/emprunt/listeEmprunts.jsp</result>
         </action>
-        <action name="ajoutEmprunts" class="admin.EmpruntsActions" method="toAddEmprunts">
+
+        <action name="toAjoutEmprunts" class="admin.EmpruntsActions" method="toAddEmprunt">
             <result>/WEB-INF/admin/emprunt/ajoutEmprunt.jsp</result>
         </action>
-        <action name="supprimerEmprunt" class="admin.AccueilAdmin">
-            <result>/WEB-INF/admin/accueil_connecte.jsp</result>
+
+        <action name="creerEmprunt" class="admin.EmpruntsActions" method="addEmprunt">
+            <result name="success">/WEB-INF/admin/emprunt/ajoutEmprunt.jsp</result>
+            <result name="input">/WEB-INF/admin/emprunt/ajoutEmprunt.jsp</result>
+            <result name="error">/WEB-INF/admin/emprunt/ajoutEmprunt.jsp</result>
         </action>
 
+        <action name="supprimerEmprunt" class="admin.EmpruntsActions" method="supprimerEmprunt">
+            <result>/WEB-INF/admin/emprunt/listeEmprunts.jsp</result>
+        </action>
     </package>
 </struts>

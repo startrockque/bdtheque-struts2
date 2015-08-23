@@ -1,5 +1,6 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ taglib prefix="sb" uri="/struts-bootstrap-tags" %>
+<%@ taglib prefix="sx" uri="/struts-dojo-tags" %>
 
 <!DOCTYPE html>
 <html>
@@ -33,12 +34,15 @@
     function verifUser() {
       document.formulaire.btn.disabled = document.formulaire.nom.value == "" || document.formulaire.prenom.value == "" || document.formulaire.mail.value == "" || document.formulaire.tel.value == "" || document.formulaire.chambre.value == 0;
     }
+
+    function verifEmprunt() {
+      document.formulaire.btn.disabled = document.formulaire.titre.value == "" || document.formulaire.nom.value == "";
+    }
   </script>
 
-
-  </script>
 
   <sb:head/>
+  <sx:head />
 </head>
 <body class="skin-black" >
 <!-- header logo: style can be found in header.less -->
@@ -109,7 +113,7 @@
           <ul class="treeview-menu">
             <li>
               <s:url id="Membres" namespace="/" action="listeMembres">
-                <s:param name="pageNumberM">0</s:param>
+                <s:param name="pageNumber">0</s:param>
               </s:url>
               <s:a href="%{Membres}">
                 <i class="glyphicon glyphicon-list"></i><span><s:text name="admin.listMembre"/></span>
@@ -131,14 +135,14 @@
           <ul class="treeview-menu">
             <li>
               <s:url id="emprunts" namespace="/" action="listeEmprunts">
-                <s:param name="pageNumberE">0</s:param>
+                <s:param name="pageNumber">0</s:param>
               </s:url>
               <s:a href="%{emprunts}">
                 <i class="glyphicon glyphicon-list"></i><span><s:text name="admin.listEmprunt"/></span>
               </s:a>
             </li>
             <li>
-              <s:url id="addEmprunt" namespace="/" action="ajoutEmprunts"/>
+              <s:url id="addEmprunt" namespace="/" action="toAjoutEmprunts"/>
               <s:a href="%{addEmprunt}">
                 <i class="glyphicon glyphicon-plus-sign"></i><span><s:text name="admin.addEmprunt"/></span>
               </s:a>

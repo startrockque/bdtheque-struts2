@@ -59,4 +59,9 @@ public abstract class Oeuvre{
     public void setEmpruntable(boolean empruntable) {
         this.empruntable = empruntable;
     }
+
+    @Override
+    public String toString() {
+        return  titre + " || " + auteur + " || " + type;
+    }
 }

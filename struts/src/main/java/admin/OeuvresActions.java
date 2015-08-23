@@ -20,6 +20,7 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     private Map<String, Object> variableSession;
 
     private List<Oeuvre> listeOeuvres;
+    private List<Oeuvre> listeOeuvresPagine;
     private List<String> listeTypes;
 
     private String messageOK;
@@ -35,9 +36,23 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     private boolean empruntable;
 
 
-    public String getAllOeuvres() throws RemoteException, NotFoundException {
-        listeOeuvres = rmiService.getAllOeuvres();
+    public String getAllOeuvresPagine() throws RemoteException, NotFoundException {
+        listeOeuvresPagine = paginer(listeOeuvres, pageNumber);
         return SUCCESS;
+    }
+
+    private List<Oeuvre> paginer(List<Oeuvre> list, int pageNumber) {
+        List<Oeuvre> res = new ArrayList<>();
+        for (int i=0; i<20; i++){
+            Oeuvre o;
+            try {
+                o = list.get(pageNumber*20 + i);
+                res.add(o);
+            } catch (IndexOutOfBoundsException e){
+                return res;
+            }
+        }
+        return res;
     }
 
     public String toAddOeuvre() {
@@ -60,11 +75,12 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
             messageKO = "Cette oeuvre est déjà dans la base de données.";
             return ERROR;
         }
+        listeOeuvres.add(oeuvre);
         return SUCCESS;
     }
 
     private void loadTypes(){
-        listeTypes = new ArrayList<>();
+        listeTypes = new ArrayList<String>();
         listeTypes.add("Livre");
         listeTypes.add("BD");
         listeTypes.add("Manga");
@@ -97,14 +113,36 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
             messageOK = "Modification effectuée.";
         } catch (RemoteException e) {
             messageKO = "Problème de connexion à la base de données.";
+        } catch (AlreadyExistsException e) {
+            messageKO = "Une oeuvre identique existe déjà.";
+            loadTypes();
+            return ERROR;
         }
-        getAllOeuvres();
+        getAllOeuvresPagine();
+        int i = 0;
+        for (Oeuvre o : listeOeuvresPagine){
+            if (o.getId() == oeuvre.getId()) {
+                listeOeuvresPagine.set(i, oeuvre);
+                listeOeuvres.set(pageNumber*20+i, oeuvre);
+                return SUCCESS;
+            }
+            i ++;
+        }
         return SUCCESS;
     }
 
     public String supprimerOeuvre() throws RemoteException, NotFoundException {
         rmiService.supprimerOeuvre(idOeuvre);
-        getAllOeuvres();
+        getAllOeuvresPagine();
+        int i = 0;
+        for (Oeuvre o : listeOeuvresPagine){
+            if (o.getId() == idOeuvre) {
+                listeOeuvresPagine.remove(i);
+                listeOeuvres.remove(pageNumber*20+i);
+                return SUCCESS;
+            }
+            i ++;
+        }
         return SUCCESS;
     }
 
@@ -121,6 +159,16 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
     @Override
     public void setSession(Map<String, Object> map) {
         variableSession = map;
+        if (variableSession.get("oeuvres") == null) {
+            try {
+                listeOeuvres = rmiService.getAllOeuvres();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            variableSession.put("oeuvres", listeOeuvres);
+        } else {
+            listeOeuvres = (ArrayList<Oeuvre>) variableSession.get("oeuvres");
+        }
     }
 
     public int getPageNumber() {
@@ -209,5 +257,13 @@ public class OeuvresActions extends ActionSupport implements ApplicationAware, S
 
     public void setListeTypes(List<String> listeTypes) {
         this.listeTypes = listeTypes;
+    }
+
+    public List<Oeuvre> getListeOeuvresPagine() {
+        return listeOeuvresPagine;
+    }
+
+    public void setListeOeuvresPagine(List<Oeuvre> listeOeuvresPagine) {
+        this.listeOeuvresPagine = listeOeuvresPagine;
     }
 }

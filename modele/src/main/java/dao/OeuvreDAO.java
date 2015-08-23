@@ -22,8 +22,9 @@ import static dao.configuration.DAOUtilitaire.initialisationRequetePreparee;
  * Created by Fabien on 14/07/2015.
  */
 public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
-    private static final String SELECT_OEUVRE = "SELECT * FROM Database.Oeuvre WHERE titre = ? AND auteur = ?";
+    private static final String SELECT_OEUVRE = "SELECT * FROM Database.Oeuvre WHERE titre = ? AND typeOeuvre = ?";
     private static final String SELECT_OEUVRES = "SELECT * FROM Database.Oeuvre";
+    private static final String SELECT_OEUVRES_EMPRUNTABLES = "SELECT * FROM Database.Oeuvre WHERE empruntable = true";
     private static final String SELECT_OEUVRE_BY_ID = "SELECT * FROM Database.Oeuvre WHERE idOeuvre = ?";
 
     private static final String INSERT_OEUVRE = "INSERT INTO Database.Oeuvre (titre, auteur, typeOeuvre, quantite, empruntable) VALUES (?, ?, ?, ?, ?)";
@@ -101,23 +102,28 @@ public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
     }
 
     @Override
-    public void update(Oeuvre obj) {
+    public void update(Oeuvre obj) throws AlreadyExistsException {
         Connection connexion = null;
         PreparedStatement requeteReponses = null;
         PreparedStatement requeteQuotat = null;
 
         try {
-            connexion = daoFactory.getConnection();
+            find(obj.getTitre(), obj.getType());
+            throw new AlreadyExistsException("Cette oeuvre existe déjà.");
+        } catch (NotFoundException nfe) {
+            try {
+                connexion = daoFactory.getConnection();
 
-            requeteQuotat = initialisationRequetePreparee(connexion, UPDATE_OEUVRE, true, obj.getTitre(), obj.getAuteur(), obj.getType(), obj.getQuantite(), obj.isEmpruntable(), obj.getId());
+                requeteQuotat = initialisationRequetePreparee(connexion, UPDATE_OEUVRE, true, obj.getTitre(), obj.getAuteur(), obj.getType(), obj.getQuantite(), obj.isEmpruntable(), obj.getId());
 
-            if (requeteQuotat.executeUpdate() == 0) {
-                throw new DAOException("Échec de la mise à jour de l'oeuvre");
+                if (requeteQuotat.executeUpdate() == 0) {
+                    throw new DAOException("Échec de la mise à jour de l'oeuvre");
+                }
+            } catch (SQLException e) {
+                throw new DAOException(e);
+            } finally {
+                fermeturesSilencieuses(requeteReponses, connexion);
             }
-        } catch ( SQLException e ) {
-            throw new DAOException( e );
-        } finally {
-            fermeturesSilencieuses(requeteReponses, connexion );
         }
     }
 
@@ -130,6 +136,7 @@ public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
         }
     }
 
+    @Override
     public Oeuvre find(String titre, String type) throws NotFoundException{
         try {
             return trouver(SELECT_OEUVRE, titre, type).get(0);
@@ -143,7 +150,10 @@ public class OeuvreDAO extends DAO<Oeuvre> implements IOeuvreDAO{
         return trouver(SELECT_OEUVRES);
     }
 
-
+    @Override
+    public List<Oeuvre> findAllEmpruntables() {
+        return trouver(SELECT_OEUVRES_EMPRUNTABLES);
+    }
 
     private List<Oeuvre> trouver(String sql, Object... objets) {
         Connection connexion = null;
