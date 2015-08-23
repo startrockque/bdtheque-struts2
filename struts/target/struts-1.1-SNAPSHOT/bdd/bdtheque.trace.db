@@ -1,0 +1,25 @@
+08-16 14:20:07 database: flush
+org.h2.message.DbException: General error: "java.lang.IllegalStateException: Chunk 40 no longer exists [1.4.182/9]" [50000-182]
+	at org.h2.message.DbException.get(DbException.java:168)
+	at org.h2.message.DbException.convert(DbException.java:295)
+	at org.h2.mvstore.db.MVTableEngine$1.uncaughtException(MVTableEngine.java:92)
+	at org.h2.mvstore.MVStore.writeInBackground(MVStore.java:2351)
+	at org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:2537)
+Caused by: org.h2.jdbc.JdbcSQLException: General error: "java.lang.IllegalStateException: Chunk 40 no longer exists [1.4.182/9]" [50000-182]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 5 more
+Caused by: java.lang.IllegalStateException: Chunk 40 no longer exists [1.4.182/9]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:762)
+	at org.h2.mvstore.MVStore.getChunkIfFound(MVStore.java:867)
+	at org.h2.mvstore.MVStore.getChunk(MVStore.java:850)
+	at org.h2.mvstore.MVStore.readPage(MVStore.java:1805)
+	at org.h2.mvstore.MVMap.readPage(MVMap.java:769)
+	at org.h2.mvstore.MVMap.setRootPos(MVMap.java:779)
+	at org.h2.mvstore.MVStore.getMetaMap(MVStore.java:507)
+	at org.h2.mvstore.MVStore.openMapVersion(MVStore.java:388)
+	at org.h2.mvstore.MVMap.openVersion(MVMap.java:1207)
+	at org.h2.mvstore.MVMap.rewrite(MVMap.java:808)
+	at org.h2.mvstore.MVStore.compactRewrite(MVStore.java:1698)
+	at org.h2.mvstore.MVStore.compact(MVStore.java:1600)
+	at org.h2.mvstore.MVStore.writeInBackground(MVStore.java:2347)
+	... 1 more

@@ -27,7 +27,7 @@
         <module name="struts" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="BDThèque" target="1.7" />
       <module name="modele" target="1.7" />
       <module name="struts" target="1.7" />
