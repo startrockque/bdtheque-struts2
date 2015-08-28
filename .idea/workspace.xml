@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468ee9c1-e41f-4538-b9c2-da666cf5b134" name="Default" comment="Affichage de la lsiste des livres avec pagination par page de 20.&#10;Mise en place de l'affichage d'une liste d'emprunts sur la page d'acceuil pour les retards.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/emprunts/EmpruntFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/emprunt/modifierEmprunt.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/appengine-web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/configuration/AlreadyExistsException.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/configuration/AlreadyExistsException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.1-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/struts-1.1-SNAPSHOT/WEB-INF/classes/admin/OeuvresActions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/struts-1.1-SNAPSHOT/WEB-INF/lib/modele-1.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/struts/target/struts-1.1-SNAPSHOT/WEB-INF/lib/modele-1.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/struts.iml" afterPath="$PROJECT_DIR$/struts/struts.iml" />
+    </list>
+    <list id="c1449f04-2167-4015-bd03-8fc198c6a6df" name="DoNotCommit" comment="">
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\classes\admin\MembresActions.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\JS\app.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\JS\bootstrap.min.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\JS\js.js" afterPath="" />
@@ -16,6 +22,8 @@
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\adminLTE\adminLTETopLeft.jsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\emprunt\ajoutEmprunt.jsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\emprunt\listeEmprunts.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\membre\ajoutMembre.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\membre\listeMembres.jsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\oeuvre\ajoutOeuvre.jsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\oeuvre\listeOeuvres.jsp" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\oeuvre\modifierOeuvre.jsp" afterPath="" />
@@ -27,6 +35,7 @@
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\accueil\package.properties" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\AccueilAdmin.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\EmpruntsActions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\MembresActions.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\OeuvresActions.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\UserActions.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\package.properties" afterPath="" />
@@ -71,70 +80,6 @@
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\bdd\bdtheque.trace.db" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\css\AdminLTE.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/AccueilAdmin.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/AccueilAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/DAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/DAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/DAOFactory.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/DAOFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/emprunts/Emprunt.class" afterPath="$PROJECT_DIR$/modele/target/classes/emprunts/Emprunt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/EmpruntDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/EmpruntDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/EmpruntsActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/EmpruntsActions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IEmpruntDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IEmpruntDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IOeuvreDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IOeuvreDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IUserDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/interfaces/IUserDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/oeuvres/Oeuvre.class" afterPath="$PROJECT_DIR$/modele/target/classes/oeuvres/Oeuvre.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/OeuvreDAO.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/OeuvreDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/oeuvres/OeuvreFactory.class" afterPath="$PROJECT_DIR$/modele/target/classes/oeuvres/OeuvreFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/OeuvresActions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/rmi/RMIService.class" afterPath="$PROJECT_DIR$/modele/target/classes/rmi/RMIService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/rmi/RMIServiceImpl.class" afterPath="$PROJECT_DIR$/modele/target/classes/rmi/RMIServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/users/User.class" afterPath="$PROJECT_DIR$/modele/target/classes/users/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/UserActions.class" afterPath="$PROJECT_DIR$/struts/target/classes/admin/UserActions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/modele/target/classes/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/AccueilAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css" afterPath="$PROJECT_DIR$/struts/src/main/webapp/css/AdminLTE.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/AlreadyExistsException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/DAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/DAOFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java" afterPath="$PROJECT_DIR$/modele/src/main/java/emprunts/Emprunt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/EmpruntDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/EmpruntDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/EmpruntsActions.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/EmpruntsActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IEmpruntDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IEmpruntDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IOeuvreDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IUserDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/interfaces/IUserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/modele/target/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/NotFoundException.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/configuration/NotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/Oeuvre.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/OeuvreDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java" afterPath="$PROJECT_DIR$/modele/src/main/java/oeuvres/OeuvreFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/OeuvresActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" afterPath="$PROJECT_DIR$/modele/src/main/java/rmi/RMIServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/users/User.java" afterPath="$PROJECT_DIR$/modele/src/main/java/users/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/java/admin/UserActions.java" afterPath="$PROJECT_DIR$/struts/src/main/java/admin/UserActions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java" afterPath="$PROJECT_DIR$/modele/src/main/java/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/adminLTE/adminLTETopLeft.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/emprunt/ajoutEmprunt.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/emprunt/ajoutEmprunt.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/emprunt/listeEmprunts.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/emprunt/listeEmprunts.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/listeOeuvres.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/listeUser.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/listeUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/oeuvre/modifierOeuvre.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/modifierUser.jsp" afterPath="$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/admin/user/modifierUser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" afterPath="$PROJECT_DIR$/struts/src/main/resources/admin/package.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/admin/package.properties" afterPath="$PROJECT_DIR$/struts/target/classes/admin/package.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modele/pom.xml" afterPath="$PROJECT_DIR$/modele/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/pom.xml" afterPath="$PROJECT_DIR$/struts/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/struts.iml" afterPath="$PROJECT_DIR$/struts/struts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/struts/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/struts/target/classes/struts.xml" afterPath="$PROJECT_DIR$/struts/target/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/struts_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/struts_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/struts_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/struts_war_exploded.xml" />
-    </list>
-    <list id="c1449f04-2167-4015-bd03-8fc198c6a6df" name="DoNotCommit" comment="">
-      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\classes\admin\MembresActions.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\membre\ajoutMembre.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\admin\membre\listeMembres.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fabien\IdeaProjects\bdtheque-struts2\struts\target\struts-1.0-SNAPSHOT\WEB-INF\classes\admin\MembresActions.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BDThèque.iws" />
@@ -309,9 +254,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -437,168 +380,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oeuvre" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDThèque" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdtheque-struts2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accueil" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -808,6 +589,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -817,7 +600,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/struts/target/struts-1.0-SNAPSHOT/bdd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appengine-java-sdk-1.9.25" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -868,7 +651,7 @@
       <recent name="actions" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Google App Engine Deployment.Google App Engine Deployment">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -1136,6 +919,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="google-app-engine-deploy" factoryName="Google App Engine Deployment">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -1246,9 +1032,18 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <configuration default="false" name="Google App Engine Deployment" type="google-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="bdtheque">
+      <deployment type="artifact" name="struts:war exploded" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="struts:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Maven.Installation" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
+      <item index="2" class="java.lang.String" itemvalue="Google App Engine Deployment.Google App Engine Deployment" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -1287,7 +1082,9 @@
       <workItem from="1437922917411" duration="5678000" />
       <workItem from="1437929415252" duration="7632000" />
       <workItem from="1439717241774" duration="6873000" />
-      <workItem from="1440322432995" duration="388000" />
+      <workItem from="1440322432995" duration="1212000" />
+      <workItem from="1440750478024" duration="2387000" />
+      <workItem from="1440756717897" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="login basique">
       <created>1436292793695</created>
@@ -1337,11 +1134,17 @@
       <option name="project" value="LOCAL" />
       <updated>1437502329197</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mise en place de la pagination et récupération de la liste des oeuvres par l'applicationAware">
+      <created>1440322973629</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1440322973629</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133260000" />
+    <option name="totallyTimeSpent" value="137787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1358,29 +1161,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42028984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7380156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42028984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18703108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42028984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33110368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1406,7 +1209,8 @@
     <MESSAGE value="Ajout de la page d'ajout d'oeuvres" />
     <MESSAGE value="Mise en place RMI, DAO et H2Database.&#10;Ajout d'une &quot;Factory&quot; d'oeuvres." />
     <MESSAGE value="Gestion des oeuvres et gestion des membres terminées." />
-    <option name="LAST_COMMIT_MESSAGE" value="Gestion des oeuvres et gestion des membres terminées." />
+    <MESSAGE value="Mise en place de la pagination et récupération de la liste des oeuvres par l'applicationAware" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de la pagination et récupération de la liste des oeuvres par l'applicationAware" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1433,13 +1237,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/Manga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29965752">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modele/src/main/java/oeuvres/BD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29965752">
@@ -1500,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.411765">
           <caret line="84" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,7 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34016886">
           <caret line="55" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1572,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4090909">
           <caret line="38" column="105" selection-start-line="38" selection-start-column="105" selection-end-line="38" selection-end-column="105" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51266587">
           <caret line="76" column="87" selection-start-line="76" selection-start-column="87" selection-end-line="76" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1616,13 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#1868#1869#0" expanded="false" />
-            <element signature="e#3507#3508#0" expanded="false" />
-            <element signature="e#3564#3565#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,23 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="128" column="10" selection-start-line="128" selection-start-column="10" selection-end-line="128" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4404#4405#0" expanded="false" />
-            <element signature="e#4448#4449#0" expanded="false" />
-            <element signature="e#4484#4485#0" expanded="false" />
-            <element signature="e#4526#4527#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#4613#4614#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1670,7 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,7 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20278099">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1686,7 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14484356">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,12 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20278099">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1707,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14484356">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1715,9 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20278099">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="method#Emprunt#0;class#Emprunt#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1725,7 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14484356">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1733,7 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14484356">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1749,7 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1768,7 +1521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034981906">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1776,7 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5174909">
           <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1784,7 +1535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1792,7 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1800,7 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57937425">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1808,9 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.05793743">
           <caret line="111" column="42" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
-          <folding>
-            <element signature="docComment;method#OeuvreDAO#0;class#OeuvreDAO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1818,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05793743">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1826,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05793743">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1834,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11587486">
           <caret line="4" column="115" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="115" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1842,6 +1584,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08690614">
           <caret line="3" column="103" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53763443">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struts/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6451613">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1900,12 +1657,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BDThèque</last-edited>
+          <last-edited>Google App Engine|struts</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
